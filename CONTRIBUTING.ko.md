@@ -46,11 +46,31 @@ cd BlockFlow-Engine
 
 ### 3️⃣ 개발 환경 설정
 ```bash
-# 의존성 설치
-npm install
+# 유니티 프로젝트 열기
+# Unity Hub에서 BlockFlow-Engine 프로젝트를 열어주세요.
 
-# pre-commit 훅 설정
-npm run prepare
+# 의존성 설치
+# Unity Package Manager에서 필요한 모든 패키지를 설치합니다.
+
+# 백엔드 및 Photon 설정
+# 프로젝트 설정 파일(backend.json, photon.json)을 구성해 서버와 연결합니다.
+{
+  "backend": {
+    "projectName": "BlockFlow",
+    "serverRegion": "Asia",
+    "authentication": {
+      "method": "JWT",
+      "timeout": 3600
+    }
+  },
+  "photon": {
+    "networkProtocol": "UDP",
+    "serverSettings": {
+      "maxPlayers": 50,
+      "timeout": 5000
+    }
+  }
+}
 ```
 
 ## 💻 개발 워크플로우
