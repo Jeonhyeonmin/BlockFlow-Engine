@@ -2,9 +2,11 @@
 
 # 🔧 Contributing to BlockFlow Engine
 
+[이전 내용과 동일...]
+
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 [![Contributors](https://img.shields.io/github/contributors/BlockFlow/Engine.svg?style=flat-square)](https://github.com/BlockFlow/Engine/graphs/contributors)
-[![Discord](https://img.shields.io/discord/YOUR_DISCORD_ID.svg?style=flat-square&label=Join%20Discord&logo=discord&logoColor=white)](https://discord.gg/YOUR_INVITE_LINK)
+[![Slack](https://img.shields.io/badge/Join-Slack-blue.svg?style=flat-square&logo=slack)](https://join.slack.com/t/blockflow/shared_invite/YOUR_INVITE_LINK)
 
 [🌏 한국어](./CONTRIBUTING.ko.md) | [🌏 English](#getting-started)
 
