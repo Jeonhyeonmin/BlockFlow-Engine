@@ -133,7 +133,7 @@ Please make sure to check the following:
 
 Need assistance? Feel free to reach out!
 
-- [Open an Issue](https://github.com/BlockFlow/Engine/issues/new)
+- [Open an Issue](https://github.com/Jeonhyeonmin/BlockFlow-Engine/issues/new)
 - [Join Slack](https://join.slack.com/t/pulsewavestudios/shared_invite/zt-2v3951tau-yC3V494lZKfkN8x0MxZuvg)
 
 **Made with ❤️ by the BlockFlow community**
