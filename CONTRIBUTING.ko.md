@@ -135,5 +135,3 @@
 
 - [이슈 등록하기](https://github.com/BlockFlow/Engine/issues/new)
 - [슬랙 참여하기](https://join.slack.com/t/pulsewavestudios/shared_invite/zt-2v3951tau-yC3V494lZKfkN8x0MxZuvg)
-
-**Made with ❤️ by the BlockFlow community**
