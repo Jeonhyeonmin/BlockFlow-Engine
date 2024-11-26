@@ -109,7 +109,7 @@ git clone https://github.com/Jeonhyeonmin/BlockFlow-Engine.git
 ```mermaid
 graph LR
     A[Clone Repo] --> B[Open Unity]
-    B --> C[Import SDKs]
+    B --> C[Project Settings]
     C --> D[Configure Keys]
     D --> E[Ready!]
 ```
