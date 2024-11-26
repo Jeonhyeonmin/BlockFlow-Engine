@@ -1,10 +1,6 @@
 # 🎮 BlockFlow Engine
 
 > [!NOTE]  
-> This project is currently under development.
-# 🎮 BlockFlow Engine
-
-> [!NOTE]  
 > This project is currently under development.  
 > 이 프로젝트는 현재 개발 진행 중입니다.
 > 
