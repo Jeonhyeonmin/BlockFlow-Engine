@@ -15,9 +15,6 @@
 > ```
 
 [한국어 버전은 아래에 있습니다 / Korean version below](#korean)
-> 이 프로젝트는 현재 개발 진행 중입니다.
-
-[한국어 버전은 아래에 있습니다 / Korean version below](#korean)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ![Unity](https://img.shields.io/badge/Unity-(6000.0.28f1)_LTS-red.svg)
