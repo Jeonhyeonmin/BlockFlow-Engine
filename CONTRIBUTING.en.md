@@ -18,7 +18,7 @@
 <hr>
 
 <p align="center">
-  🎉 Thank you for contributing to **BlockFlow Engine**! Your contributions help make this project shine even brighter.
+  🎉 Thank you for contributing to <string>BlockFlow Engine</strong>! Your contributions help make this project shine even brighter.
 </p>
 
 <hr>
