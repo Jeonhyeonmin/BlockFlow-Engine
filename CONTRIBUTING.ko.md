@@ -138,7 +138,7 @@ git push origin feature/기능-이름
 도움이 필요하신가요? 언제든 문의하세요!
 
 - 🐛 [이슈 등록하기](https://github.com/BlockFlow/Engine/issues/new)
-- 💬 [디스코드 참여하기](https://discord.gg/YOUR_INVITE_LINK)
+- 💬 [슬랙 참여하기]([https://discord.gg/YOUR_INVITE_LINK](https://join.slack.com/t/pulsewavestudios/shared_invite/zt-2v3951tau-yC3V494lZKfkN8x0MxZuvg))
 - 📧 [@Jeonhyeonmin](https://github.com/Jeonhyeonmin)에게 연락하기
 - 📚 [문서 읽어보기](https://docs.blockflow.dev)
 
