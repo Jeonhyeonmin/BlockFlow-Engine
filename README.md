@@ -149,7 +149,7 @@ Comprehensive documentation available in our [Wiki](https://github.com/Jeonhyeon
 
 ## 🤝 Contributing
 
-We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md).
+We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.en.md).
 
 ## 📜 License
 
@@ -294,7 +294,7 @@ graph LR
 
 ## 🤝 기여하기
 
-기여를 환영합니다! [기여 가이드](CONTRIBUTING.md)를 참조해 주세요.
+기여를 환영합니다! [기여 가이드](CONTRIBUTING.ko.md)를 참조해 주세요.
 
 ## 📜 라이선스
 
