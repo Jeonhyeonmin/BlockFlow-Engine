@@ -254,7 +254,7 @@ git clone https://github.com/Jeonhyeonmin/BlockFlow-Engine.git
 ```mermaid
 graph LR
     A[저장소 복제] --> B[유니티 실행]
-    B --> C[SDK 임포트]
+    B --> C[프로젝트 설정]
     C --> D[키 설정]
     D --> E[준비 완료!]
 ```
