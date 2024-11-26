@@ -2,8 +2,6 @@
 
 # 🔧 Contributing to BlockFlow Engine
 
-[이전 내용과 동일...]
-
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 [![Contributors](https://img.shields.io/github/contributors/BlockFlow/Engine.svg?style=flat-square)](https://github.com/BlockFlow/Engine/graphs/contributors)
 [![Slack](https://img.shields.io/badge/Join-Slack-blue.svg?style=flat-square&logo=slack)](https://join.slack.com/t/pulsewavestudios/shared_invite/zt-2v3951tau-yC3V494lZKfkN8x0MxZuvg)
