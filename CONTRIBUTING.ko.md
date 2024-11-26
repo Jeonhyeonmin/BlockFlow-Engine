@@ -6,7 +6,7 @@
 
 🌏 [English](./CONTRIBUTING.en.md) | 🌏 [한국어](#-시작하기)
 
-🎉 BlockFlow Engine에 기여해주셔서 감사합니다! 모든 기여는 이 프로젝트를 더 좋게 만드는 데 도움이 됩니다.
+🎉 **BlockFlow Engine**에 기여해주셔서 감사합니다! 모든 기여는 이 프로젝트를 더 좋게 만드는 데 도움이 됩니다.
 
 ---
 
@@ -38,7 +38,7 @@
 ### 3️⃣ 개발 환경 설정
 
 - 유니티 프로젝트 열기
-- Unity Hub에서 BlockFlow-Engine 프로젝트를 열어주세요.
+- Unity Hub에서 **BlockFlow-Engine** 프로젝트를 열어주세요.
 - 의존성 설치: Unity Package Manager에서 필요한 모든 패키지를 설치합니다.
 - 백엔드 및 Photon 설정: 프로젝트 설정 파일(backend.json, photon.json)을 구성해 서버와 연결합니다.
 
@@ -53,21 +53,21 @@
 
 ### 2️⃣ 변경사항 작업
 
-- 깔끔한 코드: 유지보수가 쉽고 읽기 좋은 코드 작성
-- 문서화: 관련 문서 업데이트
-- 테스트: 새로운 기능에 대한 테스트 추가
-- 주석: 복잡한 로직에 주석 추가
+- **깔끔한 코드**: 유지보수가 쉽고 읽기 좋은 코드 작성
+- **문서화**: 관련 문서 업데이트
+- **테스트**: 새로운 기능에 대한 테스트 추가
+- **주석**: 복잡한 로직에 주석 추가
 
 ---
 
 ## 📝 코드 스타일 가이드라인
 
-- 들여쓰기는 2칸 공백 사용
-- 기존 코드 패턴 따르기
-- 의미 있는 이름 사용
-- 복잡한 로직에 주석 추가
-- 함수는 한 가지 역할에 집중
-- 단위 테스트 작성
+- **들여쓰기는 2칸 공백 사용**
+- **기존 코드 패턴 따르기**
+- **의미 있는 이름 사용**
+- **복잡한 로직에 주석 추가**
+- **함수는 한 가지 역할에 집중**
+- **단위 테스트 작성**
 
 ---
 
@@ -86,21 +86,21 @@
 
 **풀 리퀘스트 체크리스트**
 
-- 코드가 스타일 가이드라인을 따름
-- 테스트 통과
-- 문서 업데이트 완료
-- PR 설명이 명확함
-- 관련 이슈와 연결됨
+- [ ] 코드가 스타일 가이드라인을 따름
+- [ ] 테스트 통과
+- [ ] 문서 업데이트 완료
+- [ ] PR 설명이 명확함
+- [ ] 관련 이슈와 연결됨
 
 ---
 
 ## 🤝 커뮤니티 가이드라인
 
-- 서로를 존중하며 협력해요!
-- 다른 사람의 학습과 성장을 도와요
-- 행동 강령을 준수해요
-- 건설적인 피드백을 제공해요
-- 적절한 크레딧을 부여해요
+- **서로를 존중하며 협력해요!**
+- **다른 사람의 학습과 성장을 도와요**
+- **행동 강령을 준수해요**
+- **건설적인 피드백을 제공해요**
+- **적절한 크레딧을 부여해요**
 
 ---
 
@@ -108,5 +108,7 @@
 
 도움이 필요하신가요? 언제든 문의하세요!
 
-- 이슈 등록하기: [https://github.com/BlockFlow/Engine/issues/new](https://github.com/BlockFlow/Engine/issues/new)
-- 슬랙 참여하기: [https://join.slack.com/t/pulsewavestudios/shared_invite/zt-2v3951tau-yC3V494lZKfkN8x0MxZuvg](https://join.slack.com/t/pulsewavestudios/shared_invite/zt-2v3951tau-yC3V494lZKfkN8x0MxZuvg)
+- [이슈 등록하기](https://github.com/BlockFlow/Engine/issues/new)
+- [슬랙 참여하기](https://join.slack.com/t/pulsewavestudios/shared_invite/zt-2v3951tau-yC3V494lZKfkN8x0MxZuvg)
+
+Made with ❤️ by the **BlockFlow** community
