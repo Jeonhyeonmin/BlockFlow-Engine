@@ -97,7 +97,6 @@ BlockFlow Engine is an innovative visual programming platform built on Unity, de
 - Unity 6 (6000.0.28F1) LTS
 - BackEnd SDK
 - Photon PUN2
-- Visual Studio 2019 or higher
 
 ### Quick Start Guide
 
@@ -243,7 +242,6 @@ BlockFlow Engine은 유니티 기반의 혁신적인 비주얼 프로그래밍 �
 - Unity 6 (6000.0.28F1) LTS
 - BackEnd SDK
 - Photon PUN2
-- Visual Studio 2019 이상
 
 ### 빠른 시작 가이드
 
