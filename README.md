@@ -83,7 +83,7 @@ BlockFlow Engine is an innovative visual programming platform built on Unity, de
   - Asset library system
   - Asset Import / Export functionality
 
-- **Game Development Tools 🛠️
+- **Game Development Tools** 🛠️
   - Scene Management System
   - Physics Simulation Controls
   - Particle System Editor
