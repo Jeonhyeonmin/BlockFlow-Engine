@@ -10,7 +10,7 @@
 ![Unity](https://img.shields.io/badge/Unity-(6000.0.28f1)LTS+-red.svg)
 ![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS-lightgrey.svg)
 
-<--
+<!--
 <div align="center">
   <img src="/api/placeholder/800/400" alt="Unity Entry Platform Screenshot">
   
