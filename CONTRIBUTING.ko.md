@@ -92,25 +92,27 @@
   </style>
 </head>
 <body>
+  <header>
+    <h1>🔧 BlockFlow Engine 기여 가이드</h1>
+    <a href="http://makeapullrequest.com" class="badge">
+      <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome" />
+    </a>
+    <a href="https://github.com/BlockFlow/Engine/graphs/contributors" class="badge">
+      <img src="https://img.shields.io/github/contributors/BlockFlow/Engine.svg?style=flat-square" alt="Contributors" />
+    </a>
+    <a href="https://join.slack.com/t/pulsewavestudios/shared_invite/zt-2v3951tau-yC3V494lZKfkN8x0MxZuvg" class="badge">
+      <img src="https://img.shields.io/badge/Join-Slack-blue.svg?style=flat-square&logo=slack" alt="Slack" />
+    </a>
+  </header>
+  
+  <section>
+    <p>🌏 <a href="./CONTRIBUTING.en.md">English</a> | <a href="#-시작하기">한국어</a></p>
+    <p>🎉 BlockFlow Engine에 기여해주셔서 감사합니다! 모든 기여는 이 프로젝트를 더 좋게 만드는 데 도움이 됩니다.</p>
+  </section>
 
-<header>
-  <h1>🔧 BlockFlow Engine 기여 가이드</h1>
-  <a href="http://makeapullrequest.com" class="badge">
-    <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome" />
-  </a>
-  <a href="https://github.com/BlockFlow/Engine/graphs/contributors" class="badge">
-    <img src="https://img.shields.io/github/contributors/BlockFlow/Engine.svg?style=flat-square" alt="Contributors" />
-  </a>
-  <a href="https://join.slack.com/t/pulsewavestudios/shared_invite/zt-2v3951tau-yC3V494lZKfkN8x0MxZuvg" class="badge">
-    <img src="https://img.shields.io/badge/Join-Slack-blue.svg?style=flat-square&logo=slack" alt="Slack" />
-  </a>
-</header>
+</body>
+</html>
 
-<section>
-  <p>
-    🌏 <a href="./CONTRIBUTING.en.md">English</a> | <a href="#-시작하기">한국어</a>
-  </p>
-  <p>🎉 BlockFlow Engine에 기여해주셔서 감사합니다! 모든 기여는 이 프로젝트를 더 좋게 만드는 데 도움이 됩니다.</p>
 </section>
 
 <section>
