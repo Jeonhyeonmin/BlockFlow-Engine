@@ -138,7 +138,7 @@ git push origin feature/your-feature-name
 Need help? We're here for you!
 
 - 🐛 [Open an issue](https://github.com/BlockFlow/Engine/issues/new)
-- 💬 [Join Discord](https://discord.gg/YOUR_INVITE_LINK)
+- 💬 [Join Slack](https://join.slack.com/t/pulsewavestudios/shared_invite/zt-2v3951tau-yC3V494lZKfkN8x0MxZuvg)
 - 📧 Contact [@Jeonhyeonmin](https://github.com/Jeonhyeonmin)
 - 📚 [Read the docs](https://docs.blockflow.dev)
 
