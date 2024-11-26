@@ -133,5 +133,5 @@
 
 도움이 필요하신가요? 언제든지 문의해주세요!
 
-- [이슈 등록하기](https://github.com/BlockFlow/Engine/issues/new)
+- [이슈 등록하기](https://github.com/Jeonhyeonmin/BlockFlow-Engine/issues/new)
 - [슬랙 참여하기](https://join.slack.com/t/pulsewavestudios/shared_invite/zt-2v3951tau-yC3V494lZKfkN8x0MxZuvg)
