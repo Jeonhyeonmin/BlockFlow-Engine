@@ -7,7 +7,7 @@
 [한국어 버전은 아래에 있습니다 / Korean version below](#korean)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-![Unity](https://img.shields.io/badge/Unity-6(6000.0.28f1) LTS+-black.svg)
+![Unity](https://img.shields.io/badge/Unity-6(6000.0.28f1)LTS+-black.svg)
 ![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS-lightgrey.svg)
 
 <div align="center">
