@@ -1,115 +1,127 @@
-# 🔧 **BlockFlow Engine** 기여 가이드
+<div align="center">
+  
+  <!-- 다중 애니메이션 배너 -->
+  ![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Orbitron&size=40&duration=4000&pause=1000&color=A960FF&center=true&vCenter=true&multiline=true&width=800&height=110&lines=Welcome+to+My+Creative+Space+%F0%9F%8C%9F;Game+Developer+%F0%9F%8E%AE+%7C%7C+Tech+Enthusiast+%F0%9F%92%BB)
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-[![Contributors](https://img.shields.io/github/contributors/BlockFlow/Engine.svg?style=flat-square)](https://github.com/BlockFlow/Engine/graphs/contributors)
-[![Slack](https://img.shields.io/badge/Join-Slack-blue.svg?style=flat-square&logo=slack)](https://join.slack.com/t/pulsewavestudios/shared_invite/zt-2v3951tau-yC3V494lZKfkN8x0MxZuvg)
+</div>
 
-🌏 [English](./CONTRIBUTING.en.md) | 🌏 [한국어](#-시작하기)
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:A960FF,100:FF69B4&height=290&section=header&text=Creative%20Developer&fontSize=90&animation=fadeIn&fontAlignY=31&desc=Crafting%20Digital%20Experiences%20with%20Passion%20🚀&descAlignY=51&descAlign=74&fontColor=ffffff&font=Montserrat" width="100%"/>
+</div>
 
-🎉 **BlockFlow Engine**에 기여해주셔서 감사합니다! 여러분의 기여가 이 프로젝트를 더욱 빛나게 만듭니다.
+<br><br>
 
----
+<h1 align="center">
+  🎮 Introduce My Specialty
+  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28">
+</h1>
 
-## 📚 목차
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=A960FF&center=true&vCenter=true&width=600&lines=Game+Client+Developer;Unity+%2B+C%23+Specialist;Performance+Optimization+Enthusiast;Creating+Immersive+Gaming+Experiences" alt="Typing SVG" />
+</p>
 
-- [🚀 시작하기](#-시작하기)
-- [💻 개발 워크플로우](#-개발-워크플로우)
-- [📝 코드 스타일 가이드라인](#-코드-스타일-가이드라인)
-- [📮 변경사항 제출](#-변경사항-제출)
-- [🤝 커뮤니티 가이드라인](#-커뮤니티-가이드라인)
-- [❓ 도움받기](#-도움받기)
+<p align="center">
+  <img src="https://img.shields.io/badge/Unity-000000?style=for-the-badge&logo=unity&logoColor=white" alt="Unity"/>
+  <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white" alt="C#"/>
+  <img src="https://img.shields.io/badge/Game_Development-FF4088?style=for-the-badge&logo=game-development&logoColor=white" alt="Game Dev"/>
+</p>
 
----
+<br>
 
-## 🚀 시작하기
+<!-- Development Environment -->
+<h2 align="center">🛠️ Development Environment</h2>
 
-### 1️⃣ 저장소 포크하기
-**프로젝트의 개인 복사본 만들기**
+<h3 align="center">💻 Development Tools</h3>
+<p align="center">
+  <img src="https://img.shields.io/badge/Unity-E60012?style=for-the-badge&logo=unity&logoColor=white"/>
+  <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white"/>
+  <img src="https://img.shields.io/badge/GCP-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white"/>
+</p>
 
-1. GitHub에서 상단의 **"Fork"** 버튼을 클릭합니다.
-2. GitHub 계정을 선택하여 포크를 생성합니다.
-3. 포크가 완료되면, 로컬에서 작업을 시작할 준비가 되었습니다.
+<h3 align="center">🧑‍💻 IDE & Editors</h3>
+<p align="center">
+  <img src="https://img.shields.io/badge/Rider-6B7A8F?style=for-the-badge&logo=rider&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Visual_Studio-5C2D91?style=for-the-badge&logo=visual%20studio&logoColor=white"/>
+  <img src="https://img.shields.io/badge/VS_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white"/>
+</p>
 
-### 2️⃣ 포크 클론하기
+<h3 align="center">🎨 Design Tools</h3>
+<p align="center">
+  <img src="https://img.shields.io/badge/Photoshop-31A8FF?style=for-the-badge&logo=adobe%20photoshop&logoColor=white"/>
+  <img src="https://img.shields.io/badge/After_Effects-9999FF?style=for-the-badge&logo=adobe%20after%20effects&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Illustrator-FF9A00?style=for-the-badge&logo=adobe%20illustrator&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Premiere_Pro-9999FF?style=for-the-badge&logo=adobe%20premiere%20pro&logoColor=white"/>
+  <img src="https://img.shields.io/static/v1?style=for-the-badge&message=DaVinci+Resolve&color=233A51&logo=DaVinci+Resolve&logoColor=FFFFFF&label="/>
+</p>
 
-- 저장소를 클론하려면: `git clone https://github.com/your-username/BlockFlow-Engine.git`
-- 로컬 디렉토리로 이동: `cd BlockFlow-Engine`
+<br>
 
-### 3️⃣ 개발 환경 설정
+<!-- Expertise Section -->
+<h2 align="center">💡 Technical Expertise</h2>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=unity,cs,python,dotnet,git,github,photoshop,aftereffects"/>
+</p>
 
-- **유니티 프로젝트 열기**  
-  Unity Hub에서 **BlockFlow-Engine** 프로젝트를 열어주세요.
-- **필요한 패키지 설치**  
-  Unity Package Manager를 사용해 필요한 모든 패키지를 설치합니다.
-- **서버 및 Photon 설정**  
-  프로젝트 설정 파일(backend.json, photon.json)을 열어 서버와의 연결을 설정합니다.
+<br>
 
----
+<!-- Activity Section -->
+<h2 align="center">📊 Development Activity</h2>
 
-## 💻 개발 워크플로우
+<h3 align="center">📈 Contribution Graph</h3>
+<p align="center">
+  <img src="https://ghchart.rshah.org/Jeonhyeonmin" alt="GitHub Activity Chart" width="100%"/>
+</p>
 
-### 1️⃣ 새 브랜치 생성
+<br>
 
-- **새 기능 추가**: `git checkout -b feature/기능-이름`
-- **버그 수정**: `git checkout -b fix/버그-이름`
+<!-- GitHub Stats -->
+<h3 align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=IBM+Plex+Mono&weight=600&size=30&duration=3000&pause=1000&color=4c88ff&center=true&vCenter=true&width=435&lines=GitHub+Statistics+%F0%9F%93%88" alt="Stats"/>
+</h3>
 
-### 2️⃣ 변경사항 작업
+<div align="center">
+  <img width="49%" height="195px" src="https://github-readme-stats.vercel.app/api?username=Jeonhyeonmin&show_icons=true&count_private=true&hide_border=true&title_color=4c88ff&icon_color=4c88ff&text_color=333333&bg_color=ffffff" alt="GitHub Stats"/>
+  <img width="49%" height="195px" src="https://github-readme-streak-stats.herokuapp.com/?user=Jeonhyeonmin&hide_border=true&stroke=4c88ff&background=ffffff&ring=4c88ff&fire=4c88ff&currStreakLabel=4c88ff" alt="Contribution Streak"/>
+</div>
 
-- **깔끔한 코드**: 코드는 가독성이 높고 유지보수가 용이해야 합니다.
-- **문서화**: 변경 사항에 맞게 문서를 업데이트해 주세요.
-- **테스트 추가**: 새로운 기능에 대한 테스트 코드를 작성합니다.
-- **주석 추가**: 복잡한 코드에는 설명을 달아 이해하기 쉽게 만들어주세요.
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=Jeonhyeonmin&theme=radical&no-frame=true&no-bg=true&row=1&column=7" width="100%" alt="Trophy"/>
+</p>
 
----
+<br>
 
-## 📝 코드 스타일 가이드라인
+<!-- Algorithm Section -->
+<h2 align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=IBM+Plex+Mono&weight=600&size=30&duration=3000&pause=1000&color=4c88ff&center=true&vCenter=true&width=435&lines=BackJoon+Rank+🏆" alt="Ranks"/>
+</h2>
 
-- **들여쓰기는 2칸 공백 사용**
-- **기존 코드의 스타일을 따르기**
-- **의미 있는 이름 사용**
-- **복잡한 로직에는 주석 추가**
-- **함수는 하나의 역할에 집중**
-- **단위 테스트 작성**
+<div align="center">
+  <a href="https://solved.ac/narim144">
+    <img src="http://mazassumnida.wtf/api/generate_badge?boj=narim144" alt="Solved.ac Profile"/>
+  </a>
+  &nbsp;&nbsp;&nbsp;
+  <a href="http://mazandi.herokuapp.com/">
+    <img src="http://mazandi.herokuapp.com/api?handle=narim144&theme=warm" alt="Mazandi Profile"/>
+  </a>
+</div>
 
----
+<br>
 
-## 📮 변경사항 제출
+<!-- Contact Section -->
+<h2 align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=30&duration=3000&pause=1000&color=A960FF&center=true&vCenter=true&width=435&lines=Let's+Connect+%F0%9F%A4%9D" alt="Connect"/>
+</h2>
 
-### 1️⃣ 변경사항 커밋
+<p align="center">
+  <a href="mailto:fudrim06@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+  </a>
+  <a href="https://discord.com/users/hyeonmin2024">
+    <img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white"/>
+  </a>
+</p>
 
-- 변경사항 스테이징: `git add .`
-- 커밋 메시지 작성: `git commit -m "feat: 멋진 새 기능 추가"` 또는 `git commit -m "fix: 중요 버그 수정"`
-
-### 2️⃣ 포크에 푸시
-
-- `git push origin feature/기능-이름`
-
-### 3️⃣ 풀 리퀘스트 생성
-
-**풀 리퀘스트 체크리스트**  
-다음 항목들을 확인해주세요:
-
-- [ ] 코드가 스타일 가이드라인을 따릅니다.
-- [ ] 모든 테스트가 통과합니다.
-- [ ] 문서가 업데이트되었습니다.
-- [ ] 풀 리퀘스트 설명이 명확합니다.
-- [ ] 관련된 이슈와 연결됩니다.
-
----
-
-## 🤝 커뮤니티 가이드라인
-
-- **서로를 존중하며 협력하세요!**
-- **다른 사람의 학습과 성장을 돕고 배려해주세요.**
-- **행동 강령을 준수하세요.**
-- **건설적인 피드백을 제공하세요.**
-- **적절한 크레딧을 부여하세요.**
-
----
-
-## ❓ 도움받기
-
-도움이 필요하신가요? 언제든지 문의해주세요!
-
-- [이슈 등록하기](https://github.com/BlockFlow/Engine/issues/new)
-- [슬랙 참여하기](https://join.slack.com/t/pulsewavestudios/shared_invite/zt-2v3951tau-yC3V494lZKfkN8x0MxZuvg)
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=150&section=footer&text=Thanks%20for%20visiting!%20👋&fontSize=30&fontColor=FFFFFF&animation=twinkling&fontAlignY=65" width="100%"/>
+</div>
