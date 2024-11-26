@@ -6,7 +6,7 @@
 [![Contributors](https://img.shields.io/github/contributors/BlockFlow/Engine.svg?style=flat-square)](https://github.com/BlockFlow/Engine/graphs/contributors)
 [![Discord](https://img.shields.io/discord/YOUR_DISCORD_ID.svg?style=flat-square&label=디스코드%20참여&logo=discord&logoColor=white)](https://discord.gg/YOUR_INVITE_LINK)
 
-[🌏 English](./CONTRIBUTING.en.md) | [🌏 한국어](#-contributing-to-blockflow-engine)
+[🌏 English](./CONTRIBUTING.en.md) | [🌏 한국어](#-시작하기)
 
 </div>
 
