@@ -92,9 +92,9 @@ This project is distributed under the MIT License. See [LICENSE](LICENSE) for mo
 
 ## 💌 Contact
 
-Project Manager - [@yourgithub](https://github.com/yourgithub)
+Project Manager - [@Jeonhyeonmin](https://github.com/Jeonhyeonmin)
 
-Project Link: [https://github.com/yourusername/Unity-Entry-Platform-Clone](https://github.com/yourusername/Unity-Entry-Platform-Clone)
+Project Link: [https://github.com/Jeonhyeonmin/Unity-Entry-Platform-Clone](https://github.com/Jeonhyeonmin/Unity-Entry-Platform-Clone)
 
 ---
 
