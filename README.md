@@ -131,7 +131,7 @@ Unity Entry Platform Clone은 교육용 프로그래밍 플랫폼인 엔트리(E
 
 ### 필수 요구사항
 
-- Unity 2022.3 이상
+- Unity 6 (6000.0.28F1) LTS
 - BackEnd SDK
 - Photon PUN2
 - Visual Studio 2019 이상
