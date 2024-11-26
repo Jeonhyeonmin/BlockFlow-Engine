@@ -1,4 +1,4 @@
-# 🔧 BlockFlow Engine 기여 가이드
+# 🔧 **BlockFlow Engine** 기여 가이드
 
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 [![Contributors](https://img.shields.io/github/contributors/BlockFlow/Engine.svg?style=flat-square)](https://github.com/BlockFlow/Engine/graphs/contributors)
@@ -6,7 +6,7 @@
 
 🌏 [English](./CONTRIBUTING.en.md) | 🌏 [한국어](#-시작하기)
 
-🎉 **BlockFlow Engine**에 기여해주셔서 감사합니다! 여러분의 기여가 이 프로젝트를 더 나은 방향으로 이끌어갈 것입니다.
+🎉 **BlockFlow Engine**에 기여해주셔서 감사합니다! 여러분의 기여가 이 프로젝트를 더욱 빛나게 만듭니다.
 
 ---
 
