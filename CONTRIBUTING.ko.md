@@ -100,7 +100,7 @@
   <code>git add .</code>
   
 - 커밋 메시지 작성:  
-  <code>git commit -m "feat: 멋진 새 기능 추가"</code> 또는  
+  <code>git commit -m "feat: 새 기능 추가"</code> 또는  
   <code>git commit -m "fix: 중요 버그 수정"</code>
 
 ### 2️⃣ 포크에 푸시
