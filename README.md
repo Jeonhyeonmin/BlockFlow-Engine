@@ -2,13 +2,23 @@
 
 > [!NOTE]  
 > This project is currently under development.
-> Development Progress | 개발 진행률
-[▰▰▰▰▰▱▱▱▱▱] 50% complete
+# 🎮 BlockFlow Engine
 
-🔨 Core Engine     [▰▰▰▰▰▰▰▱▱▱] 70%
-🎨 Block Editor    [▰▰▰▰▰▱▱▱▱▱] 50%
-🌐 Multiplayer     [▰▰▰▱▱▱▱▱▱▱] 30%
-📚 Documentation   [▰▰▱▱▱▱▱▱▱▱] 20%
+> [!NOTE]  
+> This project is currently under development.  
+> 이 프로젝트는 현재 개발 진행 중입니다.
+> 
+> ```
+> Development Progress | 개발 진행률
+> [▰▰▰▰▰▱▱▱▱▱] 50% complete
+> 
+> 🔨 Core Engine     [▰▰▰▰▰▰▰▱▱▱] 70%
+> 🎨 Block Editor    [▰▰▰▰▰▱▱▱▱▱] 50%
+> 🌐 Multiplayer     [▰▰▰▱▱▱▱▱▱▱] 30%
+> 📚 Documentation   [▰▰▱▱▱▱▱▱▱▱] 20%
+> ```
+
+[한국어 버전은 아래에 있습니다 / Korean version below](#korean)
 > 이 프로젝트는 현재 개발 진행 중입니다.
 
 [한국어 버전은 아래에 있습니다 / Korean version below](#korean)
