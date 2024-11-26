@@ -137,7 +137,3 @@
 - [슬랙 참여하기](https://join.slack.com/t/pulsewavestudios/shared_invite/zt-2v3951tau-yC3V494lZKfkN8x0MxZuvg)
 
 <hr>
-
-<p align="center">
-  Made with ❤️ by the **BlockFlow** community
-</p>
