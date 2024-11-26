@@ -1,6 +1,6 @@
 <div align="center">
   <!-- 배너 -->
-  <h1>🔧 BlockFlow Engine 기여 가이드</h1>
+  <h1>🔧 <strong>BlockFlow Engine</strong> 기여 가이드</h1>
   <p>
     <a href="http://makeapullrequest.com">
       <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome"/>
@@ -18,7 +18,7 @@
 <hr>
 
 <p align="center">
-  🎉 **BlockFlow Engine**에 기여해주셔서 감사합니다! 여러분의 기여가 이 프로젝트를 더욱 빛나게 만듭니다.
+  🎉 <strong>BlockFlow Engine</strong>에 기여해주셔서 감사합니다! 여러분의 기여가 이 프로젝트를 더욱 빛나게 만듭니다.
 </p>
 
 <hr>
@@ -135,3 +135,5 @@
 
 - [이슈 등록하기](https://github.com/BlockFlow/Engine/issues/new)
 - [슬랙 참여하기](https://join.slack.com/t/pulsewavestudios/shared_invite/zt-2v3951tau-yC3V494lZKfkN8x0MxZuvg)
+
+**Made with ❤️ by the BlockFlow community**
