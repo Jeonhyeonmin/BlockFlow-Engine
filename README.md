@@ -70,25 +70,25 @@ BlockFlow Engine is an innovative visual programming platform built on Unity, de
   - Performance monitoring tools
 
 - **Multiplayer Integration** 🌐
-  - BackEnd server integration
+  - AWS Partner "BackEnd" server integration
   - Photon PUN2 networking system
   - Real-time game state synchronization
   - Built-in lobby system
-  - Player authentication and profiles
+  - Player Authentication and Friend Feature
 
 - **Asset Management System** 🎨
   - Integrated sprite editor
   - Animation creation tools
   - Sound effect manager
   - Asset library system
-  - Import/Export functionality
+  - Asset Import / Export functionality
 
-- **Game Development Tools** 🛠️
-  - Scene management system
-  - Physics simulation
-  - Particle system editor
-  - UI component library
-  - Testing and debugging tools
+- **Game Development Tools 🛠️
+  - Scene Management System
+  - Physics Simulation Controls
+  - Particle System Editor
+  - UI Object Library
+  - Debugging Tools
 
 ## 🚀 Getting Started
 
@@ -184,7 +184,7 @@ graph TD
     style F fill:#00cec9,stroke:#fff,stroke-width:2px
 ```
 
-  <p><strong>BlockFlow Engine</strong> - 유니티 기반의 비주얼 프로그래밍으로 당신의 창의성을 펼치세요</p>
+  <p><strong>BlockFlow Engine</strong> - 유니티 기반의 비주얼 프로그래밍으로 여러분의 창의성을 펼치세요</p>
 </div>
 
 ## 📝 프로젝트 소개
@@ -216,25 +216,25 @@ BlockFlow Engine은 유니티 기반의 혁신적인 비주얼 프로그래밍 �
   - 성능 모니터링 도구
 
 - **멀티플레이어 통합** 🌐
-  - BackEnd 서버 연동
+  - AWS 공식 파트너사 "뒤끝" 서버 연동
   - Photon PUN2 네트워킹
   - 실시간 게임 상태 동기화
   - 내장 로비 시스템
-  - 플레이어 인증 및 프로필
+  - 플레이어 인증 및 친구 기능
 
 - **에셋 관리 시스템** 🎨
   - 통합 스프라이트 에디터
   - 애니메이션 제작 도구
   - 사운드 이펙트 매니저
   - 에셋 라이브러리
-  - 임포트/엑스포트 기능
+  - 에셋 불러오기 / 내보내기 기능
 
 - **게임 개발 도구** 🛠️
   - 씬 관리 시스템
-  - 물리 시뮬레이션
+  - 물리 조절 시뮬레이션
   - 파티클 시스템 에디터
-  - UI 컴포넌트 라이브러리
-  - 테스트 및 디버깅 도구
+  - UI 오브젝트 라이브러리
+  - 디버깅 도구
 
 ## 🚀 시작하기
 
