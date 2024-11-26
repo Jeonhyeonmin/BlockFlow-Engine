@@ -1,4 +1,3 @@
-영어 기여 가이드
 # 🤝 Contributing Guide
 
 Thank you for your interest in contributing to **BlockFlow Engine**! Your help is greatly appreciated. This guide will walk you through the process of contributing to the project.
