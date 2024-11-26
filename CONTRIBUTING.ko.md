@@ -1,6 +1,6 @@
 <div align="center">
   <!-- 배너 -->
-  <h1>🔧 **BlockFlow Engine** 기여 가이드</h1>
+  <h1>🔧 BlockFlow Engine 기여 가이드</h1>
   <p>
     <a href="http://makeapullrequest.com">
       <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome"/>
