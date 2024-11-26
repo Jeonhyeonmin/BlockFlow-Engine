@@ -12,7 +12,7 @@
       <img src="https://img.shields.io/badge/Join-Slack-blue.svg?style=flat-square&logo=slack" alt="Slack"/>
     </a>
   </p>
-  <p>🌏 <a href="./CONTRIBUTING.en.md">English</a> | 🌏 <a href="#-getting-started">한국어</a></p>
+  <p>🌏 <a href="./CONTRIBUTING.kr.md">한국어</a> | 🌏 <a href="#-getting-started">English</a></p>
 </div>
 
 <hr>
