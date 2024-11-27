@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638682144674761718
-    m_Hash: 727964716
+      ticks: 638682844121797092
+    m_Hash: 2487394605
   m_LockFileStatus:
     m_FilePath: "C:/Users/JeonHyeonMin/OneDrive - \uC778\uCC9C\uAD11\uC5ED\uC2DC\uAD50\uC721\uCCAD/\uBB38\uC11C/GitHub/BlockFlow_Engine/Packages/packages-lock.json"
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638682145184220667
-    m_Hash: 4188753251
+      ticks: 638682844121862196
+    m_Hash: 1629172292
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -1354,6 +1354,199 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 2.0.0
     minimumUnityVersion: 2019.2.0a1
+- packageId: com.unity.vectorgraphics@2.0.0-preview.25
+  testable: 0
+  isDirectDependency: 1
+  version: 2.0.0-preview.25
+  source: 1
+  resolvedPath: "C:\\Users\\JeonHyeonMin\\OneDrive - \uC778\uCC9C\uAD11\uC5ED\uC2DC\uAD50\uC721\uCCAD\\\uBB38\uC11C\\GitHub\\BlockFlow_Engine\\Library\\PackageCache\\com.unity.vectorgraphics"
+  assetPath: Packages/com.unity.vectorgraphics
+  name: com.unity.vectorgraphics
+  displayName: Vector Graphics
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: The vector graphics package provides an SVG importer and runtime vector
+    graphics APIs.
+  errors: []
+  versions:
+    all:
+    - 1.0.0-preview.13
+    - 1.0.0-preview.15
+    - 1.0.0-preview.19
+    - 1.0.0-preview.20
+    - 1.0.0-preview.21
+    - 1.0.0-preview.22
+    - 1.0.0-preview.23
+    - 1.0.0-preview.24
+    - 1.0.0-preview.26
+    - 1.0.0-preview.27
+    - 1.0.0-preview.28
+    - 1.0.0-preview.29
+    - 1.0.0-preview.30
+    - 1.0.0-preview.31
+    - 1.0.0-preview.32
+    - 1.0.0-preview.33
+    - 1.0.0-preview.34
+    - 2.0.0-preview.2
+    - 2.0.0-preview.3
+    - 2.0.0-preview.4
+    - 2.0.0-preview.5
+    - 2.0.0-preview.6
+    - 2.0.0-preview.7
+    - 2.0.0-preview.8
+    - 2.0.0-preview.9
+    - 2.0.0-preview.10
+    - 2.0.0-preview.11
+    - 2.0.0-preview.12
+    - 2.0.0-preview.13
+    - 2.0.0-preview.14
+    - 2.0.0-preview.15
+    - 2.0.0-preview.16
+    - 2.0.0-preview.17
+    - 2.0.0-preview.18
+    - 2.0.0-preview.19
+    - 2.0.0-preview.20
+    - 2.0.0-preview.21
+    - 2.0.0-preview.23
+    - 2.0.0-preview.24
+    - 2.0.0-preview.25
+    compatible:
+    - 2.0.0-preview.2
+    - 2.0.0-preview.3
+    - 2.0.0-preview.4
+    - 2.0.0-preview.5
+    - 2.0.0-preview.6
+    - 2.0.0-preview.7
+    - 2.0.0-preview.8
+    - 2.0.0-preview.9
+    - 2.0.0-preview.10
+    - 2.0.0-preview.11
+    - 2.0.0-preview.12
+    - 2.0.0-preview.13
+    - 2.0.0-preview.14
+    - 2.0.0-preview.15
+    - 2.0.0-preview.16
+    - 2.0.0-preview.17
+    - 2.0.0-preview.18
+    - 2.0.0-preview.19
+    - 2.0.0-preview.20
+    - 2.0.0-preview.21
+    - 2.0.0-preview.23
+    - 2.0.0-preview.24
+    - 2.0.0-preview.25
+    recommended: 
+    deprecated: []
+  dependencies:
+  - name: com.unity.ugui
+    version: 1.0.0
+  - name: com.unity.2d.sprite
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.animation
+    version: 1.0.0
+  - name: com.unity.modules.physics2d
+    version: 1.0.0
+  - name: com.unity.modules.uielements
+    version: 1.0.0
+  - name: com.unity.modules.imageconversion
+    version: 1.0.0
+  - name: com.unity.modules.unitywebrequest
+    version: 1.0.0
+  - name: com.unity.modules.unitywebrequestwww
+    version: 1.0.0
+  - name: com.unity.modules.unitywebrequesttexture
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.ugui
+    version: 2.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.2d.sprite
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.animation
+    version: 1.0.0
+  - name: com.unity.modules.physics2d
+    version: 1.0.0
+  - name: com.unity.modules.uielements
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.modules.hierarchycore
+    version: 1.0.0
+  - name: com.unity.modules.imageconversion
+    version: 1.0.0
+  - name: com.unity.modules.unitywebrequest
+    version: 1.0.0
+  - name: com.unity.modules.unitywebrequestwww
+    version: 1.0.0
+  - name: com.unity.modules.unitywebrequestassetbundle
+    version: 1.0.0
+  - name: com.unity.modules.assetbundle
+    version: 1.0.0
+  - name: com.unity.modules.unitywebrequestaudio
+    version: 1.0.0
+  - name: com.unity.modules.audio
+    version: 1.0.0
+  - name: com.unity.modules.unitywebrequesttexture
+    version: 1.0.0
+  keywords:
+  - vector
+  - graphics
+  - svg
+  - importer
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638665256573130000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.vectorgraphics@2.0/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.vectorgraphics.git
+    revision: e7ca9c096b4d072b53430d3571f02939905c2247
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"### Fixed\n\n* (VGB-13) Fixed incorrect VectorImage
+    gradient texture Format in linear project.\n* (VGB-15) Fixed SVG Image Data is
+    not parsed when importing SVG files with binary data that has a MIME type of
+    image/PNG."}'
+  assetStore:
+    productId: 
+  fingerprint: a64d4c536fea870229e81fe3d9b5c0eb07221f91
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 2.0.0-preview.2
+    minimumUnityVersion: 2019.4.0a1
 - packageId: com.unity.visualscripting@1.9.5
   testable: 0
   isDirectDependency: 1
@@ -3892,6 +4085,76 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
+- packageId: com.unity.2d.sprite@1.0.0
+  testable: 0
+  isDirectDependency: 0
+  version: 1.0.0
+  source: 2
+  resolvedPath: "C:\\Users\\JeonHyeonMin\\OneDrive - \uC778\uCC9C\uAD11\uC5ED\uC2DC\uAD50\uC721\uCCAD\\\uBB38\uC11C\\GitHub\\BlockFlow_Engine\\Library\\PackageCache\\com.unity.2d.sprite"
+  assetPath: Packages/com.unity.2d.sprite
+  name: com.unity.2d.sprite
+  displayName: 2D Sprite
+  author:
+    name: 
+    email: 
+    url: 
+  category: 2D
+  type: 
+  description: Use Unity Sprite Editor Window to create and edit Sprite asset properties
+    like pivot, borders and Physics shape
+  errors: []
+  versions:
+    all:
+    - 1.0.0
+    compatible:
+    - 1.0.0
+    recommended: 1.0.0
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - 2d
+  - sprite
+  - sprite editor window
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 1.0.0
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: 0e70656ef5df5c7161c8cfc6f24ab0dde0dc637e
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.0.0
+    minimumUnityVersion: 2019.2.0a1
 - packageId: com.unity.ext.nunit@2.0.5
   testable: 0
   isDirectDependency: 0

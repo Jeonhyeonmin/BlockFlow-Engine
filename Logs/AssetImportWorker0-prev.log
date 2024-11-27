@@ -1,0 +1,723 @@
+Using pre-set license
+Built from '6000.0/staging' branch; Version is '6000.0.28f1 (f336aca0cab5) revision 15939244'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'ko' Physical Memory: 16328 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.28f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/JeonHyeonMin/OneDrive - 인천광역시교육청/문서/GitHub/BlockFlow_Engine
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+1214
+-job-worker-count
+5
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+Successfully changed project path to: C:/Users/JeonHyeonMin/OneDrive - 인천광역시교육청/문서/GitHub/BlockFlow_Engine
+C:/Users/JeonHyeonMin/OneDrive - 인천광역시교육청/문서/GitHub/BlockFlow_Engine
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [2352]  Target information:
+
+Player connection [2352]  * "[IP] 192.168.219.102 [Port] 0 [Flags] 2 [Guid] 2794948440 [EditorId] 2794948440 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-E6SMTE2) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [2352] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [2352] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 4.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.28f1 (f336aca0cab5)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.28f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/JeonHyeonMin/OneDrive - 인천광역시교육청/문서/GitHub/BlockFlow_Engine/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2504)
+    Vendor:   NVIDIA
+    VRAM:     12115 MB
+    Driver:   32.0.15.6614
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.28f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.28f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.28f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56368
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.28f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008362 seconds.
+- Loaded All Assemblies, in  0.517 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.412 seconds
+Domain Reload Profiling: 920ms
+	BeginReloadAssembly (219ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (51ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (79ms)
+	LoadAllAssembliesAndSetupDomain (148ms)
+		LoadAssemblies (207ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (145ms)
+			TypeCache.Refresh (143ms)
+				TypeCache.ScanAssembly (131ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (412ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (369ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (61ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (6ms)
+			ProcessInitializeOnLoadAttributes (199ms)
+			ProcessInitializeOnLoadMethodAttributes (80ms)
+			AfterProcessingInitializeOnLoad (15ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.430 seconds
+Refreshing native plugins compatible for Editor in 2.55 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.192 seconds
+Domain Reload Profiling: 2595ms
+	BeginReloadAssembly (477ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (51ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (69ms)
+	LoadAllAssembliesAndSetupDomain (791ms)
+		LoadAssemblies (672ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (276ms)
+			TypeCache.Refresh (184ms)
+				TypeCache.ScanAssembly (167ms)
+			BuildScriptInfoCaches (78ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (1193ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (942ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (248ms)
+			ProcessInitializeOnLoadAttributes (543ms)
+			ProcessInitializeOnLoadMethodAttributes (102ms)
+			AfterProcessingInitializeOnLoad (30ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 2.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 206 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5976 unused Assets / (3.7 MB). Loaded Objects now: 6772.
+Memory consumption went from 189.4 MB to 185.7 MB.
+Total: 9.274400 ms (FindLiveObjects: 0.878100 ms CreateObjectMapping: 0.324700 ms MarkObjects: 6.207600 ms  DeleteObjects: 1.863100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 183.136899 seconds.
+  path: Assets/UI Toolkit/UI Document/Login Page/Asset 1.svg
+  artifactKey: Guid(0ef9abe7ccdbff94c935c5bf08801b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Toolkit/UI Document/Login Page/Asset 1.svg using Guid(0ef9abe7ccdbff94c935c5bf08801b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3c2a787f6ba0c6065c3c2d05b750209f') in 0.0508731 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/UI Toolkit/UI Document/Login Page/UXML_Login.uxml
+  artifactKey: Guid(14b7714f4ed4d3449a20e5641b255eaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Toolkit/UI Document/Login Page/UXML_Login.uxml using Guid(14b7714f4ed4d3449a20e5641b255eaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '165bd32c19e2a98d805a9307f77b8d9a') in 0.0396592 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.119871 seconds.
+  path: Assets/UI Toolkit/UI Document/Login Page/UXML_Login.uxml
+  artifactKey: Guid(14b7714f4ed4d3449a20e5641b255eaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Toolkit/UI Document/Login Page/UXML_Login.uxml using Guid(14b7714f4ed4d3449a20e5641b255eaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5e0aba58e73f4251cfe6d5106028fdd5') in 0.0029883 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.967039 seconds.
+  path: Assets/UI Toolkit/UI Document/Login Page/Asset 1.svg
+  artifactKey: Guid(0ef9abe7ccdbff94c935c5bf08801b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Toolkit/UI Document/Login Page/Asset 1.svg using Guid(0ef9abe7ccdbff94c935c5bf08801b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2b3f493a543bf996a1523fa328b2843b') in 0.0144881 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.815729 seconds.
+  path: Assets/UI Toolkit/UI Document/Login Page/Asset 1.svg
+  artifactKey: Guid(0ef9abe7ccdbff94c935c5bf08801b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Toolkit/UI Document/Login Page/Asset 1.svg using Guid(0ef9abe7ccdbff94c935c5bf08801b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '552bffc4010788565aefb0847e657fb8') in 0.0221616 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.263345 seconds.
+  path: Assets/UI Toolkit/UI Document/Login Page/Asset 1.svg
+  artifactKey: Guid(0ef9abe7ccdbff94c935c5bf08801b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Toolkit/UI Document/Login Page/Asset 1.svg using Guid(0ef9abe7ccdbff94c935c5bf08801b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '21455e73bf179f026b5c789c25849187') in 0.012255 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.849463 seconds.
+  path: Assets/UI Toolkit/UI Document/Login Page/Asset 1.svg
+  artifactKey: Guid(0ef9abe7ccdbff94c935c5bf08801b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Toolkit/UI Document/Login Page/Asset 1.svg using Guid(0ef9abe7ccdbff94c935c5bf08801b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3960bd816a436d36016487ac8b2ad46d') in 0.1443487 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 2456.899797 seconds.
+  path: Assets/UI Toolkit/UI Document/Login Page/Untitled-1.ai
+  artifactKey: Guid(f804f0ec87ae9e646819e0cac94ee754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Toolkit/UI Document/Login Page/Untitled-1.ai using Guid(f804f0ec87ae9e646819e0cac94ee754) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '257aced4439d583d315cac9d8b4f1007') in 0.1169887 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.592720 seconds.
+  path: Assets/UI Toolkit/UI Document/Login Page/4242.ai
+  artifactKey: Guid(39730186e7603734c8c3738e66ef40cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Toolkit/UI Document/Login Page/4242.ai using Guid(39730186e7603734c8c3738e66ef40cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8bfc678a10c8bdba2d17dd763b81a2c3') in 0.0051118 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 161.878953 seconds.
+  path: Assets/UI Toolkit/UI Document/Login Page/24242.svg
+  artifactKey: Guid(288536953f98ab140999b57ae8a2d438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Toolkit/UI Document/Login Page/24242.svg using Guid(288536953f98ab140999b57ae8a2d438) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '176cab2ab28dfec5f1f4f4d61b8f18cc') in 1.191999 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.625100 seconds.
+  path: Assets/UI Toolkit/UI Document/Login Page/46436-01.svg
+  artifactKey: Guid(39cad3922bfb80041985204c6589a4ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Toolkit/UI Document/Login Page/46436-01.svg using Guid(39cad3922bfb80041985204c6589a4ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ab197e19ec28183a20e832438277650e') in 0.0205949 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.648729 seconds.
+  path: Assets/UI Toolkit/UI Document/Login Page/8658588-01.svg
+  artifactKey: Guid(3bded8d486170374da429747d0d73b63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Toolkit/UI Document/Login Page/8658588-01.svg using Guid(3bded8d486170374da429747d0d73b63) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '821d1baaaff112859f19f2889a63e310') in 0.0328519 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.837889 seconds.
+  path: Assets/UI Toolkit/UI Document/Login Page/8658588-01.svg
+  artifactKey: Guid(3bded8d486170374da429747d0d73b63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Toolkit/UI Document/Login Page/8658588-01.svg using Guid(3bded8d486170374da429747d0d73b63) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'be391f04289917f73c3cc460c61bd90c') in 0.0037865 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 974.848743 seconds.
+  path: Assets/UI Toolkit/UI Document/Login Page/ampersand-sergi-delgado-adobe-1.png
+  artifactKey: Guid(f1d3154816473f644a020e042a1c8e24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Toolkit/UI Document/Login Page/ampersand-sergi-delgado-adobe-1.png using Guid(f1d3154816473f644a020e042a1c8e24) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '54f6507850139f009f3be5b2e529bb2b') in 0.0500431 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.360252 seconds.
+  path: Assets/UI Toolkit/UI Document/Login Page/ampersand-sergi-delgado-adobe-1.png
+  artifactKey: Guid(f1d3154816473f644a020e042a1c8e24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Toolkit/UI Document/Login Page/ampersand-sergi-delgado-adobe-1.png using Guid(f1d3154816473f644a020e042a1c8e24) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '34a49f2e4542332d1143dd29641ae47c') in 0.0368561 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 653.762631 seconds.
+  path: Assets/UI Toolkit/UI Document/Login Page/AdobeStock_802742909.jpeg
+  artifactKey: Guid(fa4bcdf3b4e763744b6d0e4ee7b2529a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Toolkit/UI Document/Login Page/AdobeStock_802742909.jpeg using Guid(fa4bcdf3b4e763744b6d0e4ee7b2529a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b0061cef0a2f171b24a42f8efd2107dc') in 0.0196197 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.001599 seconds.
+  path: Assets/UI Toolkit/UI Document/Login Page/AdobeStock_802742909.jpeg
+  artifactKey: Guid(fa4bcdf3b4e763744b6d0e4ee7b2529a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Toolkit/UI Document/Login Page/AdobeStock_802742909.jpeg using Guid(fa4bcdf3b4e763744b6d0e4ee7b2529a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4b550f458ea765806188065566d71fb1') in 0.0409211 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.441687 seconds.
+  path: Assets/UI Toolkit/UI Document/Login Page/AdobeStock_802742909.jpeg
+  artifactKey: Guid(fa4bcdf3b4e763744b6d0e4ee7b2529a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Toolkit/UI Document/Login Page/AdobeStock_802742909.jpeg using Guid(fa4bcdf3b4e763744b6d0e4ee7b2529a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '61c6442dd8df6d5f370319e6b40fab21') in 0.0224356 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 1137.083559 seconds.
+  path: Assets/UI Toolkit/UI Document/Login Page/Login-Screen-01-01.svg
+  artifactKey: Guid(a13c841e0c82c20478bc2baa66c67017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Toolkit/UI Document/Login Page/Login-Screen-01-01.svg using Guid(a13c841e0c82c20478bc2baa66c67017) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f81c605853a00f7a7c011c84e7203953') in 0.2189477 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.360876 seconds.
+  path: Assets/UI Toolkit/UI Document/Login Page/Login-Screen-01-01.svg
+  artifactKey: Guid(a13c841e0c82c20478bc2baa66c67017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Toolkit/UI Document/Login Page/Login-Screen-01-01.svg using Guid(a13c841e0c82c20478bc2baa66c67017) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '001648ca38156bc453f4df0bb64837d3') in 0.1151531 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.443741 seconds.
+  path: Assets/UI Toolkit/UI Document/Login Page/UXML_Login.uxml
+  artifactKey: Guid(14b7714f4ed4d3449a20e5641b255eaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Toolkit/UI Document/Login Page/UXML_Login.uxml using Guid(14b7714f4ed4d3449a20e5641b255eaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e6a3331d83ba14a7042661c833639f62') in 0.0206674 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 51.153211 seconds.
+  path: Assets/UI Toolkit/UI Document/Login Page/4242.svg
+  artifactKey: Guid(75259375badbd724b856b7c70ba813a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Toolkit/UI Document/Login Page/4242.svg using Guid(75259375badbd724b856b7c70ba813a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '16e4d8ec3971108ac43e2585cea963c0') in 0.0678534 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.248254 seconds.
+  path: Assets/UI Toolkit/UI Document/Login Page/4242-01.svg
+  artifactKey: Guid(cbfb3c7a3a9874e48ab47f27bea01120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Toolkit/UI Document/Login Page/4242-01.svg using Guid(cbfb3c7a3a9874e48ab47f27bea01120) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '162c1d37cf7e66ed5018be4d8fdc0832') in 0.1534046 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.576277 seconds.
+  path: Assets/UI Toolkit/UI Document/Login Page/4242-01.svg
+  artifactKey: Guid(cbfb3c7a3a9874e48ab47f27bea01120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Toolkit/UI Document/Login Page/4242-01.svg using Guid(cbfb3c7a3a9874e48ab47f27bea01120) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bff7ca23987a6b4e9fa9f0ebc5a3926a') in 0.0940028 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.038233 seconds.
+  path: Assets/UI Toolkit/UI Document/Login Page/4242-01.svg
+  artifactKey: Guid(cbfb3c7a3a9874e48ab47f27bea01120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Toolkit/UI Document/Login Page/4242-01.svg using Guid(cbfb3c7a3a9874e48ab47f27bea01120) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '114b4a72356685bea7f815af86e91a2d') in 0.0526388 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 51.927709 seconds.
+  path: Assets/UI Toolkit/UI Document/Login Page/4242-01-01.svg
+  artifactKey: Guid(763ef195cf64f624a80477167057ae1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Toolkit/UI Document/Login Page/4242-01-01.svg using Guid(763ef195cf64f624a80477167057ae1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f0a5edef1ffe9bd19d3141305bdb9ea0') in 0.1318261 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 138.588343 seconds.
+  path: Assets/UI Toolkit/UI Document/Login Page/Login-Screen-01-01.png
+  artifactKey: Guid(252c5652e16806c41aa8fe0f9cfce16c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Toolkit/UI Document/Login Page/Login-Screen-01-01.png using Guid(252c5652e16806c41aa8fe0f9cfce16c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '13960ec02acfb28ef6b623555ec3f660') in 0.0319813 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.115352 seconds.
+  path: Assets/UI Toolkit/UI Document/Login Page/Login-Screen-01-01.png
+  artifactKey: Guid(252c5652e16806c41aa8fe0f9cfce16c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Toolkit/UI Document/Login Page/Login-Screen-01-01.png using Guid(252c5652e16806c41aa8fe0f9cfce16c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7b3a42198363c531dedab21ad9dfe5cf') in 0.2213694 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.369719 seconds.
+  path: Assets/UI Toolkit/UI Document/Login Page/Login-Screen-01-01.png
+  artifactKey: Guid(252c5652e16806c41aa8fe0f9cfce16c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Toolkit/UI Document/Login Page/Login-Screen-01-01.png using Guid(252c5652e16806c41aa8fe0f9cfce16c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '28ac0483c500086d23d0d81044ac1ab9') in 0.0221301 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 108.673290 seconds.
+  path: Assets/UI Toolkit/UI Document/Login Page/Login-Screen-01-01.svg
+  artifactKey: Guid(a13c841e0c82c20478bc2baa66c67017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Toolkit/UI Document/Login Page/Login-Screen-01-01.svg using Guid(a13c841e0c82c20478bc2baa66c67017) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a8078ae75f6db48de47eb37acb25fb89') in 0.1796329 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 113.304097 seconds.
+  path: Assets/UI Toolkit/UI Document/Login Page/Login-Screen-01-01 [Recovered]-01.svg
+  artifactKey: Guid(746b5a6009eb2df4393153cddcdc96db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Toolkit/UI Document/Login Page/Login-Screen-01-01 [Recovered]-01.svg using Guid(746b5a6009eb2df4393153cddcdc96db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2b77f781fdd9645c987fcfd1aa0b9526') in 0.1512293 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.214840 seconds.
+  path: Assets/UI Toolkit/UI Document/Login Page/Login-Screen-01-01 [Recovered]-01.svg
+  artifactKey: Guid(746b5a6009eb2df4393153cddcdc96db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Toolkit/UI Document/Login Page/Login-Screen-01-01 [Recovered]-01.svg using Guid(746b5a6009eb2df4393153cddcdc96db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5af297cf5f2f6ae0f13c1304848fc856') in 0.0151686 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 448.720082 seconds.
+  path: Assets/UI Toolkit/UI Document/Login Page/2142142142144124142141414124-01.svg
+  artifactKey: Guid(3074b1f719b41e446a820865b89c0303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Toolkit/UI Document/Login Page/2142142142144124142141414124-01.svg using Guid(3074b1f719b41e446a820865b89c0303) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9c2680dc985a5ed9bd46eb830109d286') in 0.1841033 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.732558 seconds.
+  path: Assets/UI Toolkit/UI Document/Login Page/2142142142144124142141414124-01.svg
+  artifactKey: Guid(3074b1f719b41e446a820865b89c0303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Toolkit/UI Document/Login Page/2142142142144124142141414124-01.svg using Guid(3074b1f719b41e446a820865b89c0303) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0b64e3401a98d82fb8899d7b9836673c') in 0.0868908 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 39.094861 seconds.
+  path: Assets/UI Toolkit/UI Document/Login Page/34324-01.png
+  artifactKey: Guid(3d360c895f7bcc147a642a5554324bb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Toolkit/UI Document/Login Page/34324-01.png using Guid(3d360c895f7bcc147a642a5554324bb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '50a053223282e571c44dc32cd11696e4') in 0.0343616 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 149.869835 seconds.
+  path: Assets/UI Toolkit/UI Document/Login Page/f.png
+  artifactKey: Guid(252c5652e16806c41aa8fe0f9cfce16c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Toolkit/UI Document/Login Page/f.png using Guid(252c5652e16806c41aa8fe0f9cfce16c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '909a8db62c9704a6509d3ada53e02b8d') in 0.0509324 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.844965 seconds.
+  path: Assets/Image
+  artifactKey: Guid(4cb4ccc06d09a0f45b23f225579e62b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image using Guid(4cb4ccc06d09a0f45b23f225579e62b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b977b5742770bd8c57d16266a0496d90') in 0.0012312 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.013626 seconds.
+  path: Assets/UI Toolkit
+  artifactKey: Guid(e51e689c1d13d95498edb263a14fe829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Toolkit using Guid(e51e689c1d13d95498edb263a14fe829) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9e0f381d1e031e7729cde015c630ab80') in 0.0009871 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.597328 seconds.
+  path: Assets/Image/Login
+  artifactKey: Guid(0a9d0e33e7d353a44baf4f44998dbf43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/Login using Guid(0a9d0e33e7d353a44baf4f44998dbf43) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd6b5a1fc08525946f2667cc8b77cfc63') in 0.0011616 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.362658 seconds.
+  path: Assets/Image/Login/Visual_Image_01.png
+  artifactKey: Guid(252c5652e16806c41aa8fe0f9cfce16c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/Login/Visual_Image_01.png using Guid(252c5652e16806c41aa8fe0f9cfce16c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ceeb61fb578aa3f38dd558fa5a2d82de') in 0.0389168 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.850563 seconds.
+  path: Assets/Image/Login/Visual_Image_01.png
+  artifactKey: Guid(252c5652e16806c41aa8fe0f9cfce16c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/Login/Visual_Image_01.png using Guid(252c5652e16806c41aa8fe0f9cfce16c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '301eda0277ac7ec768e337fe948327c3') in 0.0448202 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.875607 seconds.
+  path: Assets/Image/Login/Visual_Image_01.png
+  artifactKey: Guid(252c5652e16806c41aa8fe0f9cfce16c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/Login/Visual_Image_01.png using Guid(252c5652e16806c41aa8fe0f9cfce16c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4a2ae2d9b0453fb872337fc7ae0ec57c') in 0.0224646 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 156.310747 seconds.
+  path: Assets/Image/Login/Asset 3.svg
+  artifactKey: Guid(45750bc39a327824ab86530388435267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/Login/Asset 3.svg using Guid(45750bc39a327824ab86530388435267) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '34ce8e4b937107cac766fe6d5f3c9309') in 0.0308759 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.534792 seconds.
+  path: Assets/Image/Login/Asset 3.svg
+  artifactKey: Guid(45750bc39a327824ab86530388435267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/Login/Asset 3.svg using Guid(45750bc39a327824ab86530388435267) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd1043327439ca11397bd186ca28046bb') in 0.0017994 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 316.956766 seconds.
+  path: Assets/Image/Login/Asset 5.svg
+  artifactKey: Guid(571ab355d54d50d40a934771ada14340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/Login/Asset 5.svg using Guid(571ab355d54d50d40a934771ada14340) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a71a490e483ff1c755eceed1ab3d1906') in 0.0174541 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.058314 seconds.
+  path: Assets/Image/Login/Asset 5.svg
+  artifactKey: Guid(571ab355d54d50d40a934771ada14340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/Login/Asset 5.svg using Guid(571ab355d54d50d40a934771ada14340) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c04de8f3ffa3de4f682a93fce99eea7a') in 0.002672 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 111.786381 seconds.
+  path: Assets/Image/Login/Asset 6.svg
+  artifactKey: Guid(1ce154c1f3902e74cb94bbdfdfcd66d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/Login/Asset 6.svg using Guid(1ce154c1f3902e74cb94bbdfdfcd66d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '85e7c976ca258f5538be579f0cb04527') in 0.0168261 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.091140 seconds.
+  path: Assets/Image/Login/Asset 6.svg
+  artifactKey: Guid(1ce154c1f3902e74cb94bbdfdfcd66d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/Login/Asset 6.svg using Guid(1ce154c1f3902e74cb94bbdfdfcd66d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fbeee51161967013ecd1b9633f12bcfa') in 0.0018026 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 471.642862 seconds.
+  path: Assets/Image/Login/BlockFlow_Engine_Logo.svg
+  artifactKey: Guid(1ce154c1f3902e74cb94bbdfdfcd66d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/Login/BlockFlow_Engine_Logo.svg using Guid(1ce154c1f3902e74cb94bbdfdfcd66d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eeb43b25c291edff55996b5d03ec7a8e') in 0.0020756 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.801572 seconds.
+  path: Assets/Image/Login/Login_BackGround_Image.png
+  artifactKey: Guid(252c5652e16806c41aa8fe0f9cfce16c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/Login/Login_BackGround_Image.png using Guid(252c5652e16806c41aa8fe0f9cfce16c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8fa83ecc0a136300523428d4240dc751') in 0.0208299 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.245068 seconds.
+  path: Assets/Image/Login/BlockFlow_Engine_Logo_Image.svg
+  artifactKey: Guid(1ce154c1f3902e74cb94bbdfdfcd66d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/Login/BlockFlow_Engine_Logo_Image.svg using Guid(1ce154c1f3902e74cb94bbdfdfcd66d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7afee74fc78e882b2ff78fefb8fdbe47') in 0.002021 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  4.361 seconds
+Refreshing native plugins compatible for Editor in 2.98 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.329 seconds
+Domain Reload Profiling: 5668ms
+	BeginReloadAssembly (1122ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (149ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (2ms)
+		CreateAndSetChildDomain (319ms)
+	RebuildCommonClasses (140ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (67ms)
+	LoadAllAssembliesAndSetupDomain (2996ms)
+		LoadAssemblies (3170ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (294ms)
+			TypeCache.Refresh (15ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (260ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (1329ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (904ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (271ms)
+			ProcessInitializeOnLoadAttributes (515ms)
+			ProcessInitializeOnLoadMethodAttributes (60ms)
+			AfterProcessingInitializeOnLoad (32ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 4.07 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5974 unused Assets / (4.3 MB). Loaded Objects now: 6845.
+Memory consumption went from 175.9 MB to 171.6 MB.
+Total: 12.129300 ms (FindLiveObjects: 1.199500 ms CreateObjectMapping: 0.744300 ms MarkObjects: 6.719700 ms  DeleteObjects: 3.464700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 126.851111 seconds.
+  path: Assets/UI Toolkit/UI Document/Login Page/UXML_Login.uxml
+  artifactKey: Guid(14b7714f4ed4d3449a20e5641b255eaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Toolkit/UI Document/Login Page/UXML_Login.uxml using Guid(14b7714f4ed4d3449a20e5641b255eaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b9cbd65a277dc667e4f5c9d79daabeac') in 0.0529057 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.874573 seconds.
+  path: Assets/Fonts
+  artifactKey: Guid(674250b2c2ff28e4f909a45d5635d3ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts using Guid(674250b2c2ff28e4f909a45d5635d3ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '614d07164b6e367feb9d9abeaa213878') in 0.0007003 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.121828 seconds.
+  path: Assets/Fonts/NotoSansKR-Thin.ttf
+  artifactKey: Guid(f5613b274e34fd94ebba7794f304d4a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/NotoSansKR-Thin.ttf using Guid(f5613b274e34fd94ebba7794f304d4a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '147dc05663a35a7e8fa1870b35d5043d') in 0.4649257 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.295172 seconds.
+  path: Assets/Fonts/NotoSansKR-Black.ttf
+  artifactKey: Guid(232354c215373c640ac05cc520fef857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/NotoSansKR-Black.ttf using Guid(232354c215373c640ac05cc520fef857) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7fda7125421391f491f2c8e6a5df4b79') in 0.0156909 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.059319 seconds.
+  path: Assets/Fonts/NotoSansKR-ExtraBold.ttf
+  artifactKey: Guid(8b21763309594574797de8c017ddf1d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/NotoSansKR-ExtraBold.ttf using Guid(8b21763309594574797de8c017ddf1d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fc677b42e12eae3b064032dc1e6deb71') in 0.0166553 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Fonts/NotoSansKR-Medium.ttf
+  artifactKey: Guid(528f56d8ff2b81b41b03c6f2d5e9feee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/NotoSansKR-Medium.ttf using Guid(528f56d8ff2b81b41b03c6f2d5e9feee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '997aab96864e39141346102485eba788') in 0.0169881 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Fonts/NotoSansKR-SemiBold.ttf
+  artifactKey: Guid(074c2e4099675d84699bd325bfb56a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/NotoSansKR-SemiBold.ttf using Guid(074c2e4099675d84699bd325bfb56a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7c9def19353aa09d32bfc527525eb264') in 0.0141035 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Fonts/NotoSansKR-ExtraLight.ttf
+  artifactKey: Guid(2a4c5492d0230b844acf36d5d3c99c78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/NotoSansKR-ExtraLight.ttf using Guid(2a4c5492d0230b844acf36d5d3c99c78) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '060f8cfe079a212352beba688ba52eb6') in 0.0167535 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/Fonts/NotoSansKR-Regular.ttf
+  artifactKey: Guid(308304cd277395345bd40df20807c12a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/NotoSansKR-Regular.ttf using Guid(308304cd277395345bd40df20807c12a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'be387a11e1024e7216a212b29fe2f156') in 0.0158837 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Fonts/NotoSansKR-Light.ttf
+  artifactKey: Guid(25a383cced2d24c409fac550cb3e4412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/NotoSansKR-Light.ttf using Guid(25a383cced2d24c409fac550cb3e4412) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c3e91c11f514f2849eada30a972c95a9') in 0.0143408 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

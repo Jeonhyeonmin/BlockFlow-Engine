@@ -88,6 +88,14 @@
       "version": "2.0.0",
       "source": "builtin"
     },
+    "com.unity.vectorgraphics@2.0.0-preview.25": {
+      "name": "com.unity.vectorgraphics",
+      "resolvedPath": "C:\\Users\\JeonHyeonMin\\OneDrive - 인천광역시교육청\\문서\\GitHub\\BlockFlow_Engine\\Library\\PackageCache\\com.unity.vectorgraphics",
+      "fingerprint": "a64d4c536fea870229e81fe3d9b5c0eb07221f91",
+      "editorCompatibility": "2019.4.0a1",
+      "version": "2.0.0-preview.25",
+      "source": "registry"
+    },
     "com.unity.visualscripting@1.9.5": {
       "name": "com.unity.visualscripting",
       "resolvedPath": "C:\\Users\\JeonHyeonMin\\OneDrive - 인천광역시교육청\\문서\\GitHub\\BlockFlow_Engine\\Library\\PackageCache\\com.unity.visualscripting",
@@ -297,6 +305,14 @@
     "com.unity.modules.hierarchycore@1.0.0": {
       "name": "com.unity.modules.hierarchycore",
       "resolvedPath": "C:\\Users\\JeonHyeonMin\\OneDrive - 인천광역시교육청\\문서\\GitHub\\BlockFlow_Engine\\Library\\PackageCache\\com.unity.modules.hierarchycore",
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.2d.sprite@1.0.0": {
+      "name": "com.unity.2d.sprite",
+      "resolvedPath": "C:\\Users\\JeonHyeonMin\\OneDrive - 인천광역시교육청\\문서\\GitHub\\BlockFlow_Engine\\Library\\PackageCache\\com.unity.2d.sprite",
+      "fingerprint": "0e70656ef5df5c7161c8cfc6f24ab0dde0dc637e",
+      "editorCompatibility": "2019.2.0a1",
       "version": "1.0.0",
       "source": "builtin"
     },
