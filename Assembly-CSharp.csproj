@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Manager\etc\SingletonManagerSystem.cs" />
+    <Compile Include="Assets\Scripts\Manager\UserSignupValidationManager.cs" />
     <Compile Include="Assets\TheBackend\Toolkit\SendQueueMgr.cs" />
     <Compile Include="Assets\Scripts\BackEnd.System\Account\AccountJoinButton.cs" />
     <Compile Include="Assets\Scripts\Manager\etc\SingletonManagerMonoBehaviour.cs" />

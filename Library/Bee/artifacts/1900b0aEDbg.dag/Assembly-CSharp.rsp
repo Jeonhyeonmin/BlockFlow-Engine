@@ -440,6 +440,7 @@
 "Assets/Scripts/BackEnd.System/Manager/BackendManager.cs"
 "Assets/Scripts/Manager/etc/SingletonManagerMonoBehaviour.cs"
 "Assets/Scripts/Manager/etc/SingletonManagerSystem.cs"
+"Assets/Scripts/Manager/UserSignupValidationManager.cs"
 "Assets/TheBackend/Toolkit/SendQueueMgr.cs"
 -langversion:9.0
 /deterministic
