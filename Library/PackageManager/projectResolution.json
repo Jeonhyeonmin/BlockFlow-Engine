@@ -24,12 +24,12 @@
       "version": "2.5.2",
       "source": "registry"
     },
-    "com.unity.ide.rider@3.0.31": {
+    "com.unity.ide.rider@3.0.34": {
       "name": "com.unity.ide.rider",
       "resolvedPath": "C:\\Users\\JeonHyeonMin\\OneDrive - 인천광역시교육청\\문서\\GitHub\\BlockFlow_Engine\\Library\\PackageCache\\com.unity.ide.rider",
-      "fingerprint": "7921be93db40ec070fcb01ed82d1c3df1bbdddcd",
-      "editorCompatibility": "2019.2.6f1",
-      "version": "3.0.31",
+      "fingerprint": "ecbf706690e5ce42dc165ddd8e5754acda3dc6b9",
+      "editorCompatibility": "2019.4.6f1",
+      "version": "3.0.34",
       "source": "registry"
     },
     "com.unity.ide.visualstudio@2.0.22": {

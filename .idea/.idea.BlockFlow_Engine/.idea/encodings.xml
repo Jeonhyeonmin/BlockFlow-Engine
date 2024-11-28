@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/Assets/Scripts/BackEnd.System/Account/AccountJoinButton.cs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Assets/Scripts/BackEnd.System/Manager/BackendManager.cs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Assets/Scripts/Manager/etc/SingletonManagerMonoBehaviour.cs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Assets/Scripts/Manager/etc/SingletonManagerSystem.cs" charset="UTF-8" />
+  </component>
+</project>

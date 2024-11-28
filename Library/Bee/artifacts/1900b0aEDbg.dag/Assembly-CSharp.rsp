@@ -130,6 +130,12 @@
 -define:TEXTCORE_TEXT_ENGINE_1_5_OR_NEWER
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
+-r:"Assets/TheBackend/Plugins/Backend.dll"
+-r:"Assets/TheBackend/Plugins/LitJSON.dll"
+-r:"Assets/TheBackend/Plugins/Settings/TheBackendHashKeySettings.dll"
+-r:"Assets/TheBackend/Plugins/Settings/TheBackendMultiSettings.dll"
+-r:"Assets/TheBackend/Plugins/Settings/TheBackendSettings.dll"
+-r:"Assets/TheBackend/Plugins/WebSocket4Net.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/6000.0.28f1/Editor/Data/Managed/UnityEngine/UnityEditor.AccessibilityModule.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/6000.0.28f1/Editor/Data/Managed/UnityEngine/UnityEditor.AdaptivePerformanceModule.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/6000.0.28f1/Editor/Data/Managed/UnityEngine/UnityEditor.BuildProfileModule.dll"
@@ -429,7 +435,12 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.0.28f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.0.28f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.0.28f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
-"Assets/Scripts/testScripts.cs"
+"Assets/Scripts/BackEnd.System/Account/AccountJoinButton.cs"
+"Assets/Scripts/BackEnd.System/Account/BackendLogin.cs"
+"Assets/Scripts/BackEnd.System/Manager/BackendManager.cs"
+"Assets/Scripts/Manager/etc/SingletonManagerMonoBehaviour.cs"
+"Assets/Scripts/Manager/etc/SingletonManagerSystem.cs"
+"Assets/TheBackend/Toolkit/SendQueueMgr.cs"
 -langversion:9.0
 /deterministic
 /optimize-

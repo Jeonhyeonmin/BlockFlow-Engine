@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\JeonHyeonMin\\OneDrive - \uC778\uCC9C\uAD11\uC5ED\uC2DC\uAD50\uC721\uCCAD\\\uBB38\uC11C\\GitHub\\BlockFlow_Engine\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4E184126-806A-827C-4178-CE2C62B52165}|Assembly-CSharp.csproj|c:\\users\\jeonhyeonmin\\onedrive - \uC778\uCC9C\uAD11\uC5ED\uC2DC\uAD50\uC721\uCCAD\\\uBB38\uC11C\\github\\blockflow_engine\\assets\\scripts\\testscripts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4E184126-806A-827C-4178-CE2C62B52165}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\testscripts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4E184126-806A-827C-4178-CE2C62B52165}|Assembly-CSharp.csproj|C:\\Users\\JeonHyeonMin\\OneDrive - \uC778\uCC9C\uAD11\uC5ED\uC2DC\uAD50\uC721\uCCAD\\\uBB38\uC11C\\GitHub\\BlockFlow_Engine\\assets\\scripts\\backend.system\\account\\backendlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E184126-806A-827C-4178-CE2C62B52165}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\backend.system\\account\\backendlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\jeonhyeonmin\\onedrive - \uC778\uCC9C\uAD11\uC5ED\uC2DC\uAD50\uC721\uCCAD\\\uBB38\uC11C\\github\\blockflow_engine\\assets\\ui toolkit\\ui document\\stylesheets\\login\\login.uss||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\ui toolkit\\ui document\\stylesheets\\login\\login.uss||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{4E184126-806A-827C-4178-CE2C62B52165}|Assembly-CSharp.csproj|c:\\users\\jeonhyeonmin\\onedrive - \uC778\uCC9C\uAD11\uC5ED\uC2DC\uAD50\uC721\uCCAD\\\uBB38\uC11C\\github\\blockflow_engine\\assets\\scripts\\backend.system\\manager\\backendmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E184126-806A-827C-4178-CE2C62B52165}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\backend.system\\manager\\backendmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E184126-806A-827C-4178-CE2C62B52165}|Assembly-CSharp.csproj|C:\\Users\\JeonHyeonMin\\OneDrive - \uC778\uCC9C\uAD11\uC5ED\uC2DC\uAD50\uC721\uCCAD\\\uBB38\uC11C\\GitHub\\BlockFlow_Engine\\assets\\scripts\\manager\\etc\\singletonmanagersystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E184126-806A-827C-4178-CE2C62B52165}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\manager\\etc\\singletonmanagersystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E184126-806A-827C-4178-CE2C62B52165}|Assembly-CSharp.csproj|C:\\Users\\JeonHyeonMin\\OneDrive - \uC778\uCC9C\uAD11\uC5ED\uC2DC\uAD50\uC721\uCCAD\\\uBB38\uC11C\\GitHub\\BlockFlow_Engine\\assets\\scripts\\backend.system\\account\\accountjoinbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E184126-806A-827C-4178-CE2C62B52165}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\backend.system\\account\\accountjoinbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E184126-806A-827C-4178-CE2C62B52165}|Assembly-CSharp.csproj|C:\\Users\\JeonHyeonMin\\OneDrive - \uC778\uCC9C\uAD11\uC5ED\uC2DC\uAD50\uC721\uCCAD\\\uBB38\uC11C\\GitHub\\BlockFlow_Engine\\assets\\scripts\\manager\\etc\\singletonmanagermonobehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E184126-806A-827C-4178-CE2C62B52165}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\manager\\etc\\singletonmanagermonobehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +30,69 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "testScripts.cs",
-              "DocumentMoniker": "C:\\Users\\JeonHyeonMin\\OneDrive - \uC778\uCC9C\uAD11\uC5ED\uC2DC\uAD50\uC721\uCCAD\\\uBB38\uC11C\\GitHub\\BlockFlow_Engine\\Assets\\Scripts\\testScripts.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\testScripts.cs",
-              "ToolTip": "C:\\Users\\JeonHyeonMin\\OneDrive - \uC778\uCC9C\uAD11\uC5ED\uC2DC\uAD50\uC721\uCCAD\\\uBB38\uC11C\\GitHub\\BlockFlow_Engine\\Assets\\Scripts\\testScripts.cs",
-              "RelativeToolTip": "Assets\\Scripts\\testScripts.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAADwvxsAAAAvAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "BackendManager.cs",
+              "DocumentMoniker": "C:\\Users\\JeonHyeonMin\\OneDrive - \uC778\uCC9C\uAD11\uC5ED\uC2DC\uAD50\uC721\uCCAD\\\uBB38\uC11C\\GitHub\\BlockFlow_Engine\\Assets\\Scripts\\BackEnd.System\\Manager\\BackendManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\BackEnd.System\\Manager\\BackendManager.cs",
+              "ToolTip": "C:\\Users\\JeonHyeonMin\\OneDrive - \uC778\uCC9C\uAD11\uC5ED\uC2DC\uAD50\uC721\uCCAD\\\uBB38\uC11C\\GitHub\\BlockFlow_Engine\\Assets\\Scripts\\BackEnd.System\\Manager\\BackendManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\BackEnd.System\\Manager\\BackendManager.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAIwCQAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T11:21:59.837Z",
+              "WhenOpened": "2024-11-28T03:24:00.551Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Login.uss",
-              "DocumentMoniker": "C:\\Users\\JeonHyeonMin\\OneDrive - \uC778\uCC9C\uAD11\uC5ED\uC2DC\uAD50\uC721\uCCAD\\\uBB38\uC11C\\GitHub\\BlockFlow_Engine\\Assets\\UI Toolkit\\UI Document\\StyleSheets\\Login\\Login.uss",
-              "RelativeDocumentMoniker": "Assets\\UI Toolkit\\UI Document\\StyleSheets\\Login\\Login.uss",
-              "ToolTip": "C:\\Users\\JeonHyeonMin\\OneDrive - \uC778\uCC9C\uAD11\uC5ED\uC2DC\uAD50\uC721\uCCAD\\\uBB38\uC11C\\GitHub\\BlockFlow_Engine\\Assets\\UI Toolkit\\UI Document\\StyleSheets\\Login\\Login.uss",
-              "RelativeToolTip": "Assets\\UI Toolkit\\UI Document\\StyleSheets\\Login\\Login.uss",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAgwBIAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-11-27T11:08:08.311Z"
+              "DocumentIndex": 4,
+              "Title": "SingletonManagerMonoBehaviour.cs",
+              "DocumentMoniker": "C:\\Users\\JeonHyeonMin\\OneDrive - \uC778\uCC9C\uAD11\uC5ED\uC2DC\uAD50\uC721\uCCAD\\\uBB38\uC11C\\GitHub\\BlockFlow_Engine\\Assets\\Scripts\\Manager\\etc\\SingletonManagerMonoBehaviour.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Manager\\etc\\SingletonManagerMonoBehaviour.cs",
+              "ToolTip": "C:\\Users\\JeonHyeonMin\\OneDrive - \uC778\uCC9C\uAD11\uC5ED\uC2DC\uAD50\uC721\uCCAD\\\uBB38\uC11C\\GitHub\\BlockFlow_Engine\\Assets\\Scripts\\Manager\\etc\\SingletonManagerMonoBehaviour.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Manager\\etc\\SingletonManagerMonoBehaviour.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAIwBsAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T03:12:53.515Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SingletonManagerSystem.cs",
+              "DocumentMoniker": "C:\\Users\\JeonHyeonMin\\OneDrive - \uC778\uCC9C\uAD11\uC5ED\uC2DC\uAD50\uC721\uCCAD\\\uBB38\uC11C\\GitHub\\BlockFlow_Engine\\Assets\\Scripts\\Manager\\etc\\SingletonManagerSystem.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Manager\\etc\\SingletonManagerSystem.cs",
+              "ToolTip": "C:\\Users\\JeonHyeonMin\\OneDrive - \uC778\uCC9C\uAD11\uC5ED\uC2DC\uAD50\uC721\uCCAD\\\uBB38\uC11C\\GitHub\\BlockFlow_Engine\\Assets\\Scripts\\Manager\\etc\\SingletonManagerSystem.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Manager\\etc\\SingletonManagerSystem.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAADwvxsAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T03:12:39.144Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BackendLogin.cs",
+              "DocumentMoniker": "C:\\Users\\JeonHyeonMin\\OneDrive - \uC778\uCC9C\uAD11\uC5ED\uC2DC\uAD50\uC721\uCCAD\\\uBB38\uC11C\\GitHub\\BlockFlow_Engine\\Assets\\Scripts\\BackEnd.System\\Account\\BackendLogin.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\BackEnd.System\\Account\\BackendLogin.cs",
+              "ToolTip": "C:\\Users\\JeonHyeonMin\\OneDrive - \uC778\uCC9C\uAD11\uC5ED\uC2DC\uAD50\uC721\uCCAD\\\uBB38\uC11C\\GitHub\\BlockFlow_Engine\\Assets\\Scripts\\BackEnd.System\\Account\\BackendLogin.cs",
+              "RelativeToolTip": "Assets\\Scripts\\BackEnd.System\\Account\\BackendLogin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T02:19:25.956Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AccountJoinButton.cs",
+              "DocumentMoniker": "C:\\Users\\JeonHyeonMin\\OneDrive - \uC778\uCC9C\uAD11\uC5ED\uC2DC\uAD50\uC721\uCCAD\\\uBB38\uC11C\\GitHub\\BlockFlow_Engine\\Assets\\Scripts\\BackEnd.System\\Account\\AccountJoinButton.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\BackEnd.System\\Account\\AccountJoinButton.cs",
+              "ToolTip": "C:\\Users\\JeonHyeonMin\\OneDrive - \uC778\uCC9C\uAD11\uC5ED\uC2DC\uAD50\uC721\uCCAD\\\uBB38\uC11C\\GitHub\\BlockFlow_Engine\\Assets\\Scripts\\BackEnd.System\\Account\\AccountJoinButton.cs",
+              "RelativeToolTip": "Assets\\Scripts\\BackEnd.System\\Account\\AccountJoinButton.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAADwvxgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T02:36:27.11Z"
             }
           ]
         }

@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638682844121797092
-    m_Hash: 2487394605
+      ticks: 638683783736262320
+    m_Hash: 943499940
   m_LockFileStatus:
     m_FilePath: "C:/Users/JeonHyeonMin/OneDrive - \uC778\uCC9C\uAD11\uC5ED\uC2DC\uAD50\uC721\uCCAD/\uBB38\uC11C/GitHub/BlockFlow_Engine/Packages/packages-lock.json"
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638682844121862196
-    m_Hash: 1629172292
+      ticks: 638683783736327908
+    m_Hash: 2533481274
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -288,10 +288,10 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 2.5.2
     minimumUnityVersion: 2020.3.48f1
-- packageId: com.unity.ide.rider@3.0.31
+- packageId: com.unity.ide.rider@3.0.34
   testable: 0
   isDirectDependency: 1
-  version: 3.0.31
+  version: 3.0.34
   source: 1
   resolvedPath: "C:\\Users\\JeonHyeonMin\\OneDrive - \uC778\uCC9C\uAD11\uC5ED\uC2DC\uAD50\uC721\uCCAD\\\uBB38\uC11C\\GitHub\\BlockFlow_Engine\\Library\\PackageCache\\com.unity.ide.rider"
   assetPath: Packages/com.unity.ide.rider
@@ -302,7 +302,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: assets
+  type: 
   description: The JetBrains Rider Editor package provides an integration for using
     the JetBrains Rider IDE as a code editor for Unity. It adds support for generating
     .csproj files for code completion and auto-discovery of installations.
@@ -377,13 +377,13 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638548308080000000
+  datePublishedTicks: 638651995659960000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.rider@3.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.rider.git
-    revision: ccd778a2275ff09f1a83bc924cfb2fb4d5b63566
+    revision: 700eb86ebc7b9f72d760e2e1c740fc5e2fd6a54b
     path: 
   unityLifecycle:
     version: 3.0.31
@@ -396,17 +396,14 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"fix RIDER-104519 Rider is reporting errors in scripts
-    that work fine in Unity when utilizing DOTS - when Player project, by generating
-    projects for all assemblies in \"com.unity.entities\", \"com.unity.collections\"\nfix
-    RIDER-111622 Unity Rider package is not compatible with Rider Dev builds"}'
+  upmReserved: '{"changelog":"- Bump Unity minimum supported version"}'
   assetStore:
     productId: 
-  fingerprint: 7921be93db40ec070fcb01ed82d1c3df1bbdddcd
+  fingerprint: ecbf706690e5ce42dc165ddd8e5754acda3dc6b9
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 3.0.31
-    minimumUnityVersion: 2019.2.6f1
+    minimumUnityVersion: 2019.4.6f1
 - packageId: com.unity.ide.visualstudio@2.0.22
   testable: 0
   isDirectDependency: 1
