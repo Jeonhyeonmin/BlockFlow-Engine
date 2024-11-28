@@ -27,7 +27,7 @@ public class SingletonManagerSystem<T> where T : class, new()
             if (_instance == null)
             {
                 // 인스턴스가 존재하지 않으면 새로 생성합니다.
-                // If the instance does not exist, create a new one.
+                // If the instance does not exist, create a new one.dd
                 _instance = new T();
             }
 
