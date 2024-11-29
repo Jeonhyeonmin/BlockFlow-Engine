@@ -1,4 +1,5 @@
 using System;
+using System.Text.RegularExpressions;
 using UnityEngine;
 using Manager.etc;
 
@@ -79,6 +80,28 @@ namespace BackEnd.System.Account
                     Debug.LogError($"닉네임 변경에 실패하였습니다. : {nickname} : {callback.Message}\nFailed to update nickname: {nickname} : {callback.Message}");
                 }
             });
+        }
+
+        public void ResetCustomPassword(string emailAddress, Action<bool> callback)
+        {
+            const string emailPattern = @"^[^@\s]+@[^@]+\.[^@]+$";
+            
+            if (!string.IsNullOrEmpty(emailAddress) && Regex.IsMatch(emailAddress, emailPattern))
+            {
+                Backend.BMember.ResetPassword(emailAddress, emailAddress, emailResult =>
+                {
+                    if (emailResult.IsSuccess())
+                    {
+                        Debug.Log($"{emailAddress} 주소로 메일을 발송하였습니다.");
+                        callback(true);
+                    }
+                    else
+                    {
+                        Debug.LogError($"{emailAddress} 주소로 전송되지 않았습니다. {emailResult.Message}");
+                        callback(false);
+                    }
+                });
+            }
         }
     }
 }

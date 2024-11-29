@@ -85,8 +85,57 @@ namespace BackEnd.System.Account
         private bool _tempKeepLogged;
 
         #endregion
+
+        [SerializeField]
+        private GameObject findPasswordPanel;
+        
+        [SerializeField, Tooltip("비밀번호 찾기 버튼 UI 컴포넌트")]
+        private TMP_InputField findPasswordInputField;
+        
+        [SerializeField, Tooltip("비밀번호 찾기 버튼 UI 컴포넌트")]
+        private Button findPasswordButton;
         
         private UserSignupValidationManager _userSignupValidationManager;
+
+        private void Start()
+        {
+            AutoLogin();
+        }
+
+        private void AutoLogin()
+        {
+            if (PlayerPrefs.HasKey("EncryptedEmail"))
+            {
+                string encryptedEmail = PlayerPrefs.GetString("EncryptedEmail", string.Empty);
+                string encryptedPassword = PlayerPrefs.GetString("EncryptedPassword", string.Empty);
+
+                if (!string.IsNullOrEmpty(encryptedEmail) && !string.IsNullOrEmpty(encryptedPassword))
+                {
+                    string email = EncryptionUtility.Decrypt(encryptedEmail);
+                    string password = EncryptionUtility.Decrypt(encryptedPassword);
+                    
+                    Debug.Log($"복호화 된 이메일 : {email}");
+                    Debug.Log($"복화화 된 비밀번호 : {password}");
+                    
+                    BackendLogin.Instance.CustomLogin(email, password, success =>
+                    {
+                        if (success)
+                        {
+                            Debug.Log("로그인에 성공했습니다.");
+                        }
+                        
+                        else
+                        {
+                            Debug.Log("로그인에 실패했습니다.");
+                        }
+                    });
+                }
+                else
+                {
+                    Debug.LogError("알 수 없는 이유로 저장 된 로그인 정보가 유실되었습니다.");
+                }
+            }
+        }
         
         private void OnEnable()
         {
@@ -120,6 +169,8 @@ namespace BackEnd.System.Account
             lLoginAccountButton.onClick.AddListener(OnClickLoginButton);
             lEmailField.onValueChanged.AddListener(_ => UpdateLoginButton());
             lPasswordField.onValueChanged.AddListener(_ => UpdateLoginButton());
+            
+            findPasswordButton.onClick.AddListener(OnClickFindPasswordButton);
         }
 
         private void ValidateUserCountry()
@@ -415,6 +466,7 @@ namespace BackEnd.System.Account
             if (IsFormValid())
             {
                 BackendLogin.Instance.CustomSignup(cEmailField.text, _tempPassword);
+                BackendLogin.Instance.UpdateNickname($"{cLastNameField.text } + {cFirstNameField.text}");
             }
         }
 
@@ -455,6 +507,23 @@ namespace BackEnd.System.Account
                     Debug.LogError("로그인에 실패했습니다.");
                     lPasswordField.text = string.Empty;
                     OnClickLoginButton();
+                }
+            });
+        }
+
+        private void OnClickFindPasswordButton()
+        {
+            BackendLogin.Instance.ResetCustomPassword(findPasswordInputField.text, success =>
+            {
+                if (success)
+                {
+                    findPasswordInputField.text = string.Empty;
+                    Debug.Log("비밀번호 초기화 요청이 성공했습니다.");
+                }
+                else
+                {
+                    findPasswordInputField.text = string.Empty;
+                    Debug.Log("비밀번호 초기화 요청이 실패했습니다.");
                 }
             });
         }
