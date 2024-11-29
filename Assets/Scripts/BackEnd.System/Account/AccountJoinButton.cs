@@ -49,6 +49,9 @@ namespace BackEnd.System.Account
         private bool _tempPasswordValidation;
         private bool _tempConfirmPasswordValidation;
 
+        private bool _tempCheckTerms;
+        private bool _tempCheckPrivacyPolicy;
+
         #endregion
 
         [Space(30)]
@@ -75,26 +78,33 @@ namespace BackEnd.System.Account
         
         private UserSignupValidationManager _userSignupValidationManager;
         
-        private void Awake()
+        private void OnEnable()
         {
             Setup();
             AddUIListener();
+            UpdateCreateAccountButton();
+            UpdateTermsAndPrivacyPolicyToggle();
         }
 
         private void Setup()
         {
-            _userSignupValidationManager = GetComponent<UserSignupValidationManager>();
-
-            ValidateUserCountry();
+            if (_userSignupValidationManager == null)
+            {
+                _userSignupValidationManager = GetComponent<UserSignupValidationManager>();
+                ValidateUserCountry();
+            }
         }
         
         private void AddUIListener()
         {
-            cFirstNameField.onEndEdit.AddListener(Fwuanr5Vdns);
-            cLastNameField.onEndEdit.AddListener(Ge7Klglne64Klge5Se);
-            cEmailField.onEndEdit.AddListener(Jgeofijf53Fuhsmvjv54673);
-            cPasswordField.onEndEdit.AddListener(JfoJmwodjewuf35);
-            cConfirmPasswordField.onEndEdit.AddListener(Feusf463Bffeu4F);
+            cFirstNameField.onEndEdit.AddListener(_ => UpdateCreateAccountButton());
+            cLastNameField.onEndEdit.AddListener(_ => UpdateCreateAccountButton());
+            cEmailField.onEndEdit.AddListener(_ => UpdateCreateAccountButton());
+            cPasswordField.onEndEdit.AddListener(_ => UpdateCreateAccountButton());
+            cConfirmPasswordField.onEndEdit.AddListener(_ => UpdateCreateAccountButton());
+            cTermsButton.onClick.AddListener(OnClickTermsButton);
+            cPrivacyPolicyButton.onClick.AddListener(OnClickPrivacyPolicyButton);
+            cTermsAndPrivacyPolicy.onValueChanged.AddListener(_ => UpdateCreateAccountButton());
             cCreateAccountButton.onClick.AddListener(OnClickCreateAccountButton);
         }
 
@@ -113,12 +123,6 @@ namespace BackEnd.System.Account
 #endif
             }
         }
-        
-        private void Fwuanr5Vdns(string aaa447) => UserFirstNameValidation(aaa447);
-        private void Ge7Klglne64Klge5Se(string bfsgzWd) => UserLastNameValidation(bfsgzWd);
-        private void Jgeofijf53Fuhsmvjv54673(string fsunds342) => UserEmailValidation(fsunds342);
-        private void JfoJmwodjewuf35(string t43JtDaff453) => UserPasswordValidation(t43JtDaff453);
-        private void Feusf463Bffeu4F(string fef4DYfy3JAaa) => UserConfirmPasswordValidation(fef4DYfy3JAaa);
 
         private bool UserFirstNameValidation(string inputFirstName)
         {
@@ -336,11 +340,41 @@ namespace BackEnd.System.Account
             }
         }
 
-        public void OnClickCreateAccountButton()
+        private void OnClickTermsButton()
         {
-            if (UserFirstNameValidation(cFirstNameField.text) && UserLastNameValidation(cLastNameField.text) &&
-                UserEmailValidation(cEmailField.text) && UserPasswordValidation(cPasswordField.text) &&
-                UserConfirmPasswordValidation(cConfirmPasswordField.text) && cTermsAndPrivacyPolicy.isOn)
+            _tempCheckTerms = true;
+            UpdateTermsAndPrivacyPolicyToggle();
+        }
+        
+        private void OnClickPrivacyPolicyButton()
+        {
+            _tempCheckPrivacyPolicy = true;
+            UpdateTermsAndPrivacyPolicyToggle();
+        }
+
+        private void UpdateTermsAndPrivacyPolicyToggle()
+        {
+            if (_tempCheckTerms && _tempCheckPrivacyPolicy)
+                cTermsAndPrivacyPolicy.interactable = true;
+            else
+                cTermsAndPrivacyPolicy.interactable = false;
+        }
+
+        private bool IsFormValid()
+        {
+            return UserFirstNameValidation(cFirstNameField.text) && UserLastNameValidation(cLastNameField.text) &&
+                   UserEmailValidation(cEmailField.text) && UserPasswordValidation(cPasswordField.text) &&
+                   UserConfirmPasswordValidation(cConfirmPasswordField.text) && cTermsAndPrivacyPolicy.isOn;
+        }
+
+        private void UpdateCreateAccountButton()
+        {
+            cCreateAccountButton.interactable = IsFormValid();
+        }
+
+        private void OnClickCreateAccountButton()
+        {
+            if (IsFormValid())
             {
                 BackendLogin.Instance.CustomSignup(cEmailField.text, _tempPassword);
             }
@@ -348,11 +382,18 @@ namespace BackEnd.System.Account
 
         private void OnDisable()
         {
+            RemoveAllListenersFromFields();
+        }
+
+        private void RemoveAllListenersFromFields()
+        {
             cFirstNameField.onEndEdit.RemoveAllListeners();
             cLastNameField.onEndEdit.RemoveAllListeners();
             cEmailField.onEndEdit.RemoveAllListeners();
             cPasswordField.onEndEdit.RemoveAllListeners();
             cConfirmPasswordField.onEndEdit.RemoveAllListeners();
+            cTermsButton.onClick.RemoveAllListeners();
+            cPrivacyPolicyButton.onClick.RemoveAllListeners();
             cCreateAccountButton.onClick.RemoveAllListeners();
         }
     }
