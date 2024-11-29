@@ -1,4 +1,3 @@
-using System;
 using System.Text.RegularExpressions;
 using Manager;
 using TMPro;
@@ -28,16 +27,27 @@ namespace BackEnd.System.Account
         [SerializeField, Tooltip("사용자가 비밀번호 확인을 입력하는 UI 컴포넌트")]
         private TMP_InputField cConfirmPasswordField;
 
-        [SerializeField, Tooltip("사용자가 서비스 약관 동의 여부를 체크하는 UI 컴포넌트")]
+        [SerializeField, Tooltip("사용자의 서비스 약관과 개인정보 보호정책을 확인하는 UI 컴포넌트")]
+        private Toggle cTermsAndPrivacyPolicy;
+        
+        [SerializeField, Tooltip("사용자가 서비스 약관을 눌렀을 때 상호작용 하는 UI 컴포넌트")]
         private Button cTermsButton;
 
-        [SerializeField, Tooltip("사용자가 개인정보 보호정책 동의 여부를 체크하는 UI 컴포넌트")]
+        [SerializeField, Tooltip("사용자가 개인정보 보호정책을 눌렀을 떄 상호작용 하는 UI 컴포넌트")]
         private Button cPrivacyPolicyButton;
 
         [SerializeField, Tooltip("계정을 생성하는 버튼 UI 컴포넌트")]
         private Button cCreateAccountButton;
         
         private SystemLanguage _userCountry;
+
+        private string _tempPassword;
+
+        private bool _tempFirstNameValidation;
+        private bool _tempLastNameValidation;
+        private bool _tempEmailValidation;
+        private bool _tempPasswordValidation;
+        private bool _tempConfirmPasswordValidation;
 
         #endregion
 
@@ -80,9 +90,12 @@ namespace BackEnd.System.Account
         
         private void AddUIListener()
         {
-            cFirstNameField.onEndEdit.AddListener(UserFirstNameValidation);
-            cLastNameField.onEndEdit.AddListener(UserLastNameValidation);
-            cEmailField.onEndEdit.AddListener(UserEmailValidation);
+            cFirstNameField.onEndEdit.AddListener(Fwuanr5Vdns);
+            cLastNameField.onEndEdit.AddListener(Ge7Klglne64Klge5Se);
+            cEmailField.onEndEdit.AddListener(Jgeofijf53Fuhsmvjv54673);
+            cPasswordField.onEndEdit.AddListener(JfoJmwodjewuf35);
+            cConfirmPasswordField.onEndEdit.AddListener(Feusf463Bffeu4F);
+            cCreateAccountButton.onClick.AddListener(OnClickCreateAccountButton);
         }
 
         private void ValidateUserCountry()
@@ -100,8 +113,14 @@ namespace BackEnd.System.Account
 #endif
             }
         }
+        
+        private void Fwuanr5Vdns(string aaa447) => UserFirstNameValidation(aaa447);
+        private void Ge7Klglne64Klge5Se(string bfsgzWd) => UserLastNameValidation(bfsgzWd);
+        private void Jgeofijf53Fuhsmvjv54673(string fsunds342) => UserEmailValidation(fsunds342);
+        private void JfoJmwodjewuf35(string t43JtDaff453) => UserPasswordValidation(t43JtDaff453);
+        private void Feusf463Bffeu4F(string fef4DYfy3JAaa) => UserConfirmPasswordValidation(fef4DYfy3JAaa);
 
-        private void UserFirstNameValidation(string inputFirstName)
+        private bool UserFirstNameValidation(string inputFirstName)
         {
             string nameLanguage = _userSignupValidationManager.GetNameLanguage(inputFirstName);
             
@@ -111,7 +130,7 @@ namespace BackEnd.System.Account
                     if (_userCountry.ToString() == "Arabic")
                     {
                         Debug.Log($"정상적인 이름이 입력되었습니다. | 사용 언어 : {nameLanguage}");
-                        return;
+                        return true;
                     }
                     
                     Debug.LogError($"비 정상적인 이름이 입력되었습니다. 유저 국가 : {_userCountry.ToString()} | 사용 언어 : {nameLanguage}");
@@ -120,7 +139,7 @@ namespace BackEnd.System.Account
                     if (_userCountry.ToString() == "Belarusian")
                     {
                         Debug.Log($"정상적인 이름이 입력되었습니다. | 사용 언어 : {nameLanguage}");
-                        return;
+                        return true;
                     }
                     
                     Debug.LogError($"비 정상적인 이름이 입력되었습니다. 유저 국가 : {_userCountry.ToString()} | 사용 언어 : {nameLanguage}");
@@ -129,7 +148,7 @@ namespace BackEnd.System.Account
                     if (_userCountry.ToString() == "Greek")
                     {
                         Debug.Log($"정상적인 이름이 입력되었습니다. | 사용 언어 : {nameLanguage}");
-                        return;
+                        return true;
                     }
                     
                     Debug.LogError($"비 정상적인 이름이 입력되었습니다. 유저 국가 : {_userCountry.ToString()} | 사용 언어 : {nameLanguage}");
@@ -138,7 +157,7 @@ namespace BackEnd.System.Account
                     if (_userCountry.ToString() == "Hebrew")
                     {
                         Debug.Log($"정상적인 이름이 입력되었습니다. | 사용 언어 : {nameLanguage}");
-                        return;
+                        return true;
                     }
                     
                     Debug.LogError($"비 정상적인 이름이 입력되었습니다. 유저 국가 : {_userCountry.ToString()} | 사용 언어 : {nameLanguage}");
@@ -147,7 +166,7 @@ namespace BackEnd.System.Account
                     if (_userCountry.ToString() == "Japanese")
                     {
                         Debug.Log($"정상적인 이름이 입력되었습니다. | 사용 언어 : {nameLanguage}");
-                        return;
+                        return true;
                     }
                     
                     Debug.LogError($"비 정상적인 이름이 입력되었습니다. 유저 국가 : {_userCountry.ToString()} | 사용 언어 : {nameLanguage}");
@@ -156,7 +175,7 @@ namespace BackEnd.System.Account
                     if (_userCountry.ToString() == "Korean")
                     {
                         Debug.Log($"정상적인 이름이 입력되었습니다. | 사용 언어 : {nameLanguage}");
-                        return;
+                        return true;
                     }
                     
                     Debug.LogError($"비 정상적인 이름이 입력되었습니다. 유저 국가 : {_userCountry.ToString()} | 사용 언어 : {nameLanguage}");
@@ -165,7 +184,7 @@ namespace BackEnd.System.Account
                     if (_userCountry.ToString() == "Russian")
                     {
                         Debug.Log($"정상적인 이름이 입력되었습니다. | 사용 언어 : {nameLanguage}");
-                        return;
+                        return true;
                     }
                     
                     Debug.LogError($"비 정상적인 이름이 입력되었습니다. 유저 국가 : {_userCountry.ToString()} | 사용 언어 : {nameLanguage}");
@@ -174,15 +193,17 @@ namespace BackEnd.System.Account
                     if (_userCountry.ToString() == "Latin-Based-Language")
                     {
                         Debug.Log($"정상적인 이름이 입력되었습니다. | 사용 언어 : {nameLanguage}");
-                        return;
+                        return true;
                     }
                     
                     Debug.LogError($"비 정상적인 이름이 입력되었습니다. 유저 국가 : {_userCountry.ToString()} | 사용 언어 : {nameLanguage}");
                     break;
             }
+
+            return false;
         }
         
-        private void UserLastNameValidation(string inputLastName)
+        private bool UserLastNameValidation(string inputLastName)
         {
             string nameLanguage = _userSignupValidationManager.GetNameLanguage(inputLastName);
             
@@ -192,7 +213,7 @@ namespace BackEnd.System.Account
                     if (_userCountry.ToString() == "Arabic")
                     {
                         Debug.Log($"정상적인 이름이 입력되었습니다. | 사용 언어 : {nameLanguage}");
-                        return;
+                        return true;
                     }
                     
                     Debug.LogError($"비 정상적인 이름이 입력되었습니다. 유저 국가 : {_userCountry.ToString()} | 사용 언어 : {nameLanguage}");
@@ -201,7 +222,7 @@ namespace BackEnd.System.Account
                     if (_userCountry.ToString() == "Belarusian")
                     {
                         Debug.Log($"정상적인 이름이 입력되었습니다. | 사용 언어 : {nameLanguage}");
-                        return;
+                        return true;
                     }
                     
                     Debug.LogError($"비 정상적인 이름이 입력되었습니다. 유저 국가 : {_userCountry.ToString()} | 사용 언어 : {nameLanguage}");
@@ -210,7 +231,7 @@ namespace BackEnd.System.Account
                     if (_userCountry.ToString() == "Greek")
                     {
                         Debug.Log($"정상적인 이름이 입력되었습니다. | 사용 언어 : {nameLanguage}");
-                        return;
+                        return true;
                     }
                     
                     Debug.LogError($"비 정상적인 이름이 입력되었습니다. 유저 국가 : {_userCountry.ToString()} | 사용 언어 : {nameLanguage}");
@@ -219,7 +240,7 @@ namespace BackEnd.System.Account
                     if (_userCountry.ToString() == "Hebrew")
                     {
                         Debug.Log($"정상적인 이름이 입력되었습니다. | 사용 언어 : {nameLanguage}");
-                        return;
+                        return true;
                     }
                     
                     Debug.LogError($"비 정상적인 이름이 입력되었습니다. 유저 국가 : {_userCountry.ToString()} | 사용 언어 : {nameLanguage}");
@@ -228,7 +249,7 @@ namespace BackEnd.System.Account
                     if (_userCountry.ToString() == "Japanese")
                     {
                         Debug.Log($"정상적인 이름이 입력되었습니다. | 사용 언어 : {nameLanguage}");
-                        return;
+                        return true;
                     }
                     
                     Debug.LogError($"비 정상적인 이름이 입력되었습니다. 유저 국가 : {_userCountry.ToString()} | 사용 언어 : {nameLanguage}");
@@ -237,7 +258,7 @@ namespace BackEnd.System.Account
                     if (_userCountry.ToString() == "Korean")
                     {
                         Debug.Log($"정상적인 이름이 입력되었습니다. | 사용 언어 : {nameLanguage}");
-                        return;
+                        return true;
                     }
                     
                     Debug.LogError($"비 정상적인 이름이 입력되었습니다. 유저 국가 : {_userCountry.ToString()} | 사용 언어 : {nameLanguage}");
@@ -246,7 +267,7 @@ namespace BackEnd.System.Account
                     if (_userCountry.ToString() == "Russian")
                     {
                         Debug.Log($"정상적인 이름이 입력되었습니다. | 사용 언어 : {nameLanguage}");
-                        return;
+                        return true;
                     }
                     
                     Debug.LogError($"비 정상적인 이름이 입력되었습니다. 유저 국가 : {_userCountry.ToString()} | 사용 언어 : {nameLanguage}");
@@ -255,25 +276,73 @@ namespace BackEnd.System.Account
                     if (_userCountry.ToString() == "Latin-Based-Language")
                     {
                         Debug.Log($"정상적인 이름이 입력되었습니다. | 사용 언어 : {nameLanguage}");
-                        return;
+                        return true;
                     }
                     
                     Debug.LogError($"비 정상적인 이름이 입력되었습니다. 유저 국가 : {_userCountry.ToString()} | 사용 언어 : {nameLanguage}");
                     break;
             }
+
+            return false;
         }
 
-        private void UserEmailValidation(string inputEmail)
+        private bool UserEmailValidation(string inputEmail)
         {
             const string emailPattern = @"^[^@\s]+@[^@]+\.[^@]+$";
 
             if (Regex.IsMatch(inputEmail, emailPattern))
             {
                 Debug.Log($"올바른 이메일 형식입니다.");
+                return true;
             }
             else
             {
                 Debug.LogError("잘못 된 이메일 형식입니다.\n이메일을 다시 확인해주세요.");
+                return false;
+            }
+        }
+
+        private bool UserPasswordValidation(string inputPassword)
+        {
+            bool hasSpecialChar = Regex.IsMatch(inputPassword, @"[~!@#$%^&*()_+\-=\[\]{};':""\\|,.<>\/?]");
+            bool hasUpperCase = Regex.IsMatch(inputPassword, @"[A-Z]");
+            bool hasLowerCase = Regex.IsMatch(inputPassword, @"[a-z]");
+            bool hasDigit = Regex.IsMatch(inputPassword, @"[0-9]");
+
+            if (hasSpecialChar && hasUpperCase && hasLowerCase && hasDigit)
+            {
+                Debug.Log("비밀번호를 설정 했습니다.");
+                _tempPassword = inputPassword;
+                return true;
+            }
+            else
+            {
+                Debug.LogError("비밀번호가 조건에 맞지 않습니다.");
+                return false;
+            }
+        }
+
+        private bool UserConfirmPasswordValidation(string inputConfirmPassword)
+        {
+            if (inputConfirmPassword == _tempPassword)
+            {
+                Debug.Log("비밀번호가 알맞습니다.");
+                return true;
+            }
+            else
+            {
+                Debug.LogError("비밀번호가 맞지 않습니다.");
+                return false;
+            }
+        }
+
+        public void OnClickCreateAccountButton()
+        {
+            if (UserFirstNameValidation(cFirstNameField.text) && UserLastNameValidation(cLastNameField.text) &&
+                UserEmailValidation(cEmailField.text) && UserPasswordValidation(cPasswordField.text) &&
+                UserConfirmPasswordValidation(cConfirmPasswordField.text) && cTermsAndPrivacyPolicy.isOn)
+            {
+                BackendLogin.Instance.CustomSignup(cEmailField.text, _tempPassword);
             }
         }
 
@@ -281,6 +350,10 @@ namespace BackEnd.System.Account
         {
             cFirstNameField.onEndEdit.RemoveAllListeners();
             cLastNameField.onEndEdit.RemoveAllListeners();
+            cEmailField.onEndEdit.RemoveAllListeners();
+            cPasswordField.onEndEdit.RemoveAllListeners();
+            cConfirmPasswordField.onEndEdit.RemoveAllListeners();
+            cCreateAccountButton.onClick.RemoveAllListeners();
         }
     }
 }
