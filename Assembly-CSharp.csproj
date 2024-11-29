@@ -51,6 +51,7 @@
     <Compile Include="Assets\TheBackend\Toolkit\SendQueueMgr.cs" />
     <Compile Include="Assets\Scripts\BackEnd.System\Account\AccountJoinButton.cs" />
     <Compile Include="Assets\Scripts\Manager\etc\SingletonManagerMonoBehaviour.cs" />
+    <Compile Include="Assets\Scripts\Security\EncryptionUtility.cs" />
     <Compile Include="Assets\Scripts\BackEnd.System\Manager\BackendManager.cs" />
     <Compile Include="Assets\Scripts\BackEnd.System\Account\BackendLogin.cs" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

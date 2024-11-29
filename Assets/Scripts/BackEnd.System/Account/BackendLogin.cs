@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using Manager.etc;
 
@@ -38,19 +39,22 @@ namespace BackEnd.System.Account
         /// </summary>
         /// <param name="id">사용자 ID / User ID</param>
         /// <param name="pw">사용자 비밀번호 / User Password</param>
-        public void CustomLogin(string id, string pw)
+        /// <param name="callback"></param>
+        public void CustomLogin(string id, string pw, Action<bool> callback)
         {
             Debug.Log("로그인을 요청합니다.\nRequesting user login.");
 
-            Backend.BMember.CustomLogin(id, pw, callback =>
+            Backend.BMember.CustomLogin(id, pw, loginResponse =>
             {
-                if (callback.IsSuccess())
+                if (loginResponse.IsSuccess())
                 {
                     Debug.Log($"로그인에 성공하였습니다. : {id}\nLogin successful: {id}");
+                    callback(true);
                 }
                 else
                 {
-                    Debug.LogError($"로그인에 실패하였습니다. : {id} : \n{callback.Message}\nLogin failed: {id} : \n{callback.Message}");
+                    Debug.LogError($"로그인에 실패하였습니다. : {id} : \n{loginResponse.Message}\nLogin failed: {id} : \n{loginResponse.Message}");
+                    callback(false);
                 }
             });
         }

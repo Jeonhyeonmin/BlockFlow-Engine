@@ -1,5 +1,6 @@
 using System.Text.RegularExpressions;
 using Manager;
+using Security;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -10,7 +11,11 @@ namespace BackEnd.System.Account
     public class AccountJoinButton : MonoBehaviour
     {
         [Header("계정 생성")]
+
         #region 계정 생성
+
+        [SerializeField, Tooltip("회원가입 패널")]
+        private GameObject accountJoinPanel;
 
         [SerializeField, Tooltip("사용자가 이름을 입력하는 UI 컴포넌트")]
         private TMP_InputField cFirstNameField;
@@ -58,6 +63,9 @@ namespace BackEnd.System.Account
 
         [Header("계정 로그인")]
         #region 계정 로그인
+        
+        [SerializeField, Tooltip("로그인 패널")]
+        private GameObject loginJoinPanel;
 
         [SerializeField, Tooltip("사용자가 이메일을 입력하는 UI 컴포넌트")]
         private TMP_InputField lEmailField;
@@ -73,6 +81,8 @@ namespace BackEnd.System.Account
 
         [SerializeField, Tooltip("계정에 로그인하는 버튼 UI 컴포넌트")]
         private Button lLoginAccountButton;
+
+        private bool _tempKeepLogged;
 
         #endregion
         
@@ -106,6 +116,10 @@ namespace BackEnd.System.Account
             cPrivacyPolicyButton.onClick.AddListener(OnClickPrivacyPolicyButton);
             cTermsAndPrivacyPolicy.onValueChanged.AddListener(_ => UpdateCreateAccountButton());
             cCreateAccountButton.onClick.AddListener(OnClickCreateAccountButton);
+            
+            lLoginAccountButton.onClick.AddListener(OnClickLoginButton);
+            lEmailField.onValueChanged.AddListener(_ => UpdateLoginButton());
+            lPasswordField.onValueChanged.AddListener(_ => UpdateLoginButton());
         }
 
         private void ValidateUserCountry()
@@ -343,12 +357,36 @@ namespace BackEnd.System.Account
         private void OnClickTermsButton()
         {
             _tempCheckTerms = true;
+            
+            if (_userCountry.ToString() != "Korean")
+            {
+                Application.OpenURL("https://storage.thebackend.io/d0df93b0586ebcac0e1cbad8ea61b30c15648d9f02a55f6c23624c80e630b1f2/terms2.html");
+                Debug.Log("외국인 대상");
+            }
+            else
+            {
+                Application.OpenURL("https://storage.thebackend.io/d0df93b0586ebcac0e1cbad8ea61b30c15648d9f02a55f6c23624c80e630b1f2/terms.html");
+                Debug.Log("한국인 대상");
+            }
+            
             UpdateTermsAndPrivacyPolicyToggle();
         }
         
         private void OnClickPrivacyPolicyButton()
         {
             _tempCheckPrivacyPolicy = true;
+
+            if (_userCountry.ToString() != "Korean")
+            {
+                Application.OpenURL("https://storage.thebackend.io/d0df93b0586ebcac0e1cbad8ea61b30c15648d9f02a55f6c23624c80e630b1f2/privacy2.html");
+                Debug.Log("외국인 대상");
+            }
+            else
+            {
+                Application.OpenURL("https://storage.thebackend.io/d0df93b0586ebcac0e1cbad8ea61b30c15648d9f02a55f6c23624c80e630b1f2/privacy.html");
+                Debug.Log("한국인 대상");
+            }
+
             UpdateTermsAndPrivacyPolicyToggle();
         }
 
@@ -380,6 +418,47 @@ namespace BackEnd.System.Account
             }
         }
 
+        private void UpdateLoginButton()
+        {
+            lLoginAccountButton.interactable =
+                !string.IsNullOrEmpty(lEmailField.text) && !string.IsNullOrEmpty(lPasswordField.text);
+        }
+
+        private void OnClickLoginButton()
+        {
+            if (string.IsNullOrEmpty(lEmailField.text) || string.IsNullOrEmpty(lPasswordField.text))
+            {
+                Debug.LogError("입력 필드를 모두 채워주세요!");
+                return;
+            }
+            
+            BackendLogin.Instance.CustomLogin(lEmailField.text, lPasswordField.text, success =>
+            {
+                if (success)
+                {
+                    // 로그인 성공
+                    Debug.Log("로그인에 성공했습니다.");
+
+                    if (lKeepLogged.isOn)
+                    {
+                        string encryptedEmail = EncryptionUtility.Encrypt(lEmailField.text);
+                        string encryptedPassword = EncryptionUtility.Encrypt(lPasswordField.text);
+                        
+                        PlayerPrefs.SetString("EncryptedEmail", encryptedEmail);
+                        PlayerPrefs.SetString("EncryptedPassword", encryptedPassword);
+                        PlayerPrefs.Save();
+                    }
+                }
+                else
+                {
+                    // 로그인 실패
+                    Debug.LogError("로그인에 실패했습니다.");
+                    lPasswordField.text = string.Empty;
+                    OnClickLoginButton();
+                }
+            });
+        }
+
         private void OnDisable()
         {
             RemoveAllListenersFromFields();
@@ -395,6 +474,8 @@ namespace BackEnd.System.Account
             cTermsButton.onClick.RemoveAllListeners();
             cPrivacyPolicyButton.onClick.RemoveAllListeners();
             cCreateAccountButton.onClick.RemoveAllListeners();
+            
+            lLoginAccountButton.onClick.RemoveAllListeners();
         }
     }
 }
