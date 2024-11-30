@@ -443,6 +443,7 @@
 "Assets/Scripts/Manager/SceneLoaderManager.cs"
 "Assets/Scripts/Manager/UserSignupValidationManager.cs"
 "Assets/Scripts/Security/EncryptionUtility.cs"
+"Assets/Scripts/Windows/Setting/ResolutionController.cs"
 "Assets/TheBackend/Toolkit/SendQueueMgr.cs"
 -langversion:9.0
 /deterministic
