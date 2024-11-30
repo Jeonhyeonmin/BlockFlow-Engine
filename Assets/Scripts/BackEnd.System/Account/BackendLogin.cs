@@ -2,6 +2,7 @@ using System;
 using System.Text.RegularExpressions;
 using UnityEngine;
 using Manager.etc;
+using Manager;
 
 namespace BackEnd.System.Account
 {
@@ -28,6 +29,7 @@ namespace BackEnd.System.Account
                     Debug.Log($"회원가입에 성공하였습니다. : {id}\nUser registration successful: {id}");
 
                     UpdateEmailAddress(id);
+                    SceneLoaderManager.Instance.LoadScene("");
                 }
                 else
                 {
@@ -53,6 +55,7 @@ namespace BackEnd.System.Account
                 {
                     Debug.Log($"로그인에 성공하였습니다. : {id}\nLogin successful: {id}");
                     callback(true);
+                    SceneLoaderManager.Instance.LoadScene("");
                 }
                 else
                 {
