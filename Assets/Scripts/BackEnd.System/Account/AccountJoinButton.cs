@@ -500,6 +500,8 @@ namespace BackEnd.System.Account
                         PlayerPrefs.SetString("EncryptedPassword", encryptedPassword);
                         PlayerPrefs.Save();
                     }
+                    
+                    
                 }
                 else
                 {

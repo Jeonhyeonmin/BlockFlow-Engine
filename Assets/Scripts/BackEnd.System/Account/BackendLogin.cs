@@ -26,6 +26,8 @@ namespace BackEnd.System.Account
                 if (callback.IsSuccess())
                 {
                     Debug.Log($"회원가입에 성공하였습니다. : {id}\nUser registration successful: {id}");
+
+                    UpdateEmailAddress(id);
                 }
                 else
                 {
@@ -56,6 +58,23 @@ namespace BackEnd.System.Account
                 {
                     Debug.LogError($"로그인에 실패하였습니다. : {id} : \n{loginResponse.Message}\nLogin failed: {id} : \n{loginResponse.Message}");
                     callback(false);
+                }
+            });
+        }
+
+        public void UpdateEmailAddress(string inputEmail)
+        {
+            Debug.Log("이메일 주소 등록을 요청합니다.");
+            
+            Backend.BMember.UpdateCustomEmail(inputEmail, callback =>
+            {
+                if (callback.IsSuccess())
+                {
+                    Debug.Log($"이메일 수정이 완료 되었습니다. {callback.Message}");
+                }
+                else
+                {
+                    Debug.Log($"이메일 수정을 실패했습니다. {callback.Message}");
                 }
             });
         }
