@@ -1,8 +1,5 @@
 <linker>
 	<assembly fullname="Assembly-CSharp">
-		<type fullname="BackEnd.System.Account.AccountJoinButton" preserve="nothing"/>
-		<type fullname="BackEnd.System.Manager.BackendManager" preserve="nothing"/>
-		<type fullname="Manager.UserSignupValidationManager" preserve="nothing"/>
 		<type fullname="Windows.Setting.ResolutionController" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="TheBackendSettings">
@@ -81,7 +78,6 @@
 	<assembly fullname="Unity.TextMeshPro">
 		<type fullname="TMPro.TextMeshProUGUI" preserve="nothing"/>
 		<type fullname="TMPro.TMP_FontAsset" preserve="nothing"/>
-		<type fullname="TMPro.TMP_InputField" preserve="nothing"/>
 		<type fullname="TMPro.TMP_Settings" preserve="nothing"/>
 		<type fullname="TMPro.TMP_SpriteAsset" preserve="nothing"/>
 		<type fullname="TMPro.TMP_StyleSheet" preserve="nothing"/>
@@ -136,7 +132,6 @@
 		<type fullname="UnityEngine.UI.Image" preserve="nothing"/>
 		<type fullname="UnityEngine.UI.LayoutElement" preserve="nothing"/>
 		<type fullname="UnityEngine.UI.Mask" preserve="nothing"/>
-		<type fullname="UnityEngine.UI.RectMask2D" preserve="nothing"/>
 		<type fullname="UnityEngine.UI.Scrollbar" preserve="nothing"/>
 		<type fullname="UnityEngine.UI.ScrollRect" preserve="nothing"/>
 		<type fullname="UnityEngine.UI.Text" preserve="nothing"/>

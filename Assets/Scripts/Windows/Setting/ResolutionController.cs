@@ -20,10 +20,20 @@ namespace Windows.Setting
 
 		[SerializeField, Tooltip("스크린 사이즈를 지정하는 변수")]
 		private Vector2 resolutionSize;
-
+		
 		private void Update()
 		{
+			AdjustResolutionToMonitorSize();
 			ApplyScreenSettingMethod();
+		}
+		
+		private void AdjustResolutionToMonitorSize()
+		{
+			int monitorWidth = Screen.currentResolution.width;
+			int monitorHeight = Screen.currentResolution.height;
+			
+			resolutionSize.x = (int)Mathf.Min((int)resolutionSize.x, monitorWidth);
+			resolutionSize.y = (int)Mathf.Min((int)resolutionSize.y, monitorHeight);
 		}
 		
 		private void ApplyScreenSettingMethod()
@@ -46,7 +56,6 @@ namespace Windows.Setting
 					if (Screen.fullScreenMode != FullScreenMode.MaximizedWindow)
 					{
 						Screen.SetResolution((int) resolutionSize.x, (int) resolutionSize.y, FullScreenMode.MaximizedWindow);
-						
 					}
 					break;
 				case ScreenMode.Windowed:

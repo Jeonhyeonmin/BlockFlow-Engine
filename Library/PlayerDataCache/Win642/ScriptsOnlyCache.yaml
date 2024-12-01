@@ -1,9 +1,6 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
-    - BackEnd.System.Account.AccountJoinButton
-    - BackEnd.System.Manager.BackendManager
-    - Manager.UserSignupValidationManager
     - Windows.Setting.ResolutionController
     TheBackendSettings.dll:
     - TheBackendSettings
@@ -88,7 +85,6 @@ ScriptsOnlyBuild:
     - TMPro.TMP_StyleSheet
     Unity.TextMeshPro.dll:
     - TMPro.TMP_FontAsset
-    - TMPro.TMP_InputField
     - TMPro.TMP_Settings
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
@@ -126,10 +122,10 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.HorizontalLayoutGroup
     - UnityEngine.UI.Image
-    - UnityEngine.UI.LayoutElement
-    - UnityEngine.UI.RectMask2D
-    - UnityEngine.UI.Toggle
+    - UnityEngine.UI.Mask
+    - UnityEngine.UI.ScrollRect
   serializedClasses:
     Unity.InputSystem:
     - UnityEngine.InputSystem.InputAction
@@ -207,11 +203,6 @@ ScriptsOnlyBuild:
     - TMPro.TMP_Character
     - TMPro.TMP_FontFeatureTable
     - TMPro.TMP_FontWeightPair
-    - TMPro.TMP_InputField/OnChangeEvent
-    - TMPro.TMP_InputField/SelectionEvent
-    - TMPro.TMP_InputField/SubmitEvent
-    - TMPro.TMP_InputField/TextSelectionEvent
-    - TMPro.TMP_InputField/TouchScreenKeyboardEvent
     - TMPro.TMP_Sprite
     - TMPro.TMP_SpriteCharacter
     - TMPro.TMP_SpriteGlyph
@@ -246,27 +237,6 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.SpriteState
     - UnityEngine.UI.Toggle/ToggleEvent
   methodsToPreserve:
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: Unity.TextMeshPro
-    fullTypeName: TMPro.TMP_InputField
-    methodName: set_text
   - assembly: Unity.RenderPipelines.Core.Runtime
     fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerButton
     methodName: OnAction
@@ -310,7 +280,7 @@ ScriptsOnlyBuild:
     fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerPanel
     methodName: ResetDebugManager
   sceneClasses:
-    Assets/Scenes/Launcher.unity:
+    Assets/Scenes/HomePage.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -332,133 +302,123 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 30226}
+      Script: {instanceID: 30250}
     - Class: 114
-      Script: {instanceID: 30390}
+      Script: {instanceID: 30414}
     - Class: 114
-      Script: {instanceID: 30632}
+      Script: {instanceID: 30656}
     - Class: 114
-      Script: {instanceID: 30676}
+      Script: {instanceID: 30700}
     - Class: 114
-      Script: {instanceID: 30854}
+      Script: {instanceID: 30878}
     - Class: 114
-      Script: {instanceID: 30958}
+      Script: {instanceID: 30982}
     - Class: 114
-      Script: {instanceID: 31006}
+      Script: {instanceID: 31030}
     - Class: 114
-      Script: {instanceID: 31120}
+      Script: {instanceID: 31146}
     - Class: 114
-      Script: {instanceID: 31242}
+      Script: {instanceID: 31334}
     - Class: 114
-      Script: {instanceID: 31308}
+      Script: {instanceID: 31472}
     - Class: 114
-      Script: {instanceID: 31446}
+      Script: {instanceID: 31724}
     - Class: 114
-      Script: {instanceID: 31698}
+      Script: {instanceID: 31752}
     - Class: 114
-      Script: {instanceID: 31726}
+      Script: {instanceID: 31924}
     - Class: 114
-      Script: {instanceID: 31898}
+      Script: {instanceID: 32264}
     - Class: 114
-      Script: {instanceID: 32238}
+      Script: {instanceID: 32320}
     - Class: 114
-      Script: {instanceID: 32294}
+      Script: {instanceID: 32470}
     - Class: 114
-      Script: {instanceID: 32444}
+      Script: {instanceID: 32692}
     - Class: 114
-      Script: {instanceID: 32666}
+      Script: {instanceID: 32778}
     - Class: 114
-      Script: {instanceID: 32752}
+      Script: {instanceID: 32814}
     - Class: 114
-      Script: {instanceID: 32788}
+      Script: {instanceID: 32866}
     - Class: 114
-      Script: {instanceID: 32840}
+      Script: {instanceID: 32898}
     - Class: 114
-      Script: {instanceID: 32872}
+      Script: {instanceID: 32930}
     - Class: 114
-      Script: {instanceID: 32904}
+      Script: {instanceID: 33762}
     - Class: 114
-      Script: {instanceID: 33730}
+      Script: {instanceID: 34054}
     - Class: 114
-      Script: {instanceID: 34022}
+      Script: {instanceID: 34066}
     - Class: 114
-      Script: {instanceID: 34034}
+      Script: {instanceID: 34756}
     - Class: 114
-      Script: {instanceID: 34206}
+      Script: {instanceID: 34794}
     - Class: 114
-      Script: {instanceID: 34266}
+      Script: {instanceID: 35058}
     - Class: 114
-      Script: {instanceID: 34722}
+      Script: {instanceID: 35146}
     - Class: 114
-      Script: {instanceID: 34760}
+      Script: {instanceID: 35208}
     - Class: 114
-      Script: {instanceID: 35022}
+      Script: {instanceID: 35284}
     - Class: 114
-      Script: {instanceID: 35110}
+      Script: {instanceID: 35362}
     - Class: 114
-      Script: {instanceID: 35154}
+      Script: {instanceID: 35468}
     - Class: 114
-      Script: {instanceID: 35172}
+      Script: {instanceID: 36058}
     - Class: 114
-      Script: {instanceID: 35248}
+      Script: {instanceID: 36236}
     - Class: 114
-      Script: {instanceID: 35326}
+      Script: {instanceID: 36334}
     - Class: 114
-      Script: {instanceID: 35432}
+      Script: {instanceID: 36336}
     - Class: 114
-      Script: {instanceID: 36022}
+      Script: {instanceID: 36580}
     - Class: 114
-      Script: {instanceID: 36200}
+      Script: {instanceID: 37302}
     - Class: 114
-      Script: {instanceID: 36298}
+      Script: {instanceID: 37862}
     - Class: 114
-      Script: {instanceID: 36300}
+      Script: {instanceID: 38814}
     - Class: 114
-      Script: {instanceID: 36544}
+      Script: {instanceID: 39226}
     - Class: 114
-      Script: {instanceID: 37266}
+      Script: {instanceID: 39278}
     - Class: 114
-      Script: {instanceID: 37298}
+      Script: {instanceID: 39548}
     - Class: 114
-      Script: {instanceID: 37826}
+      Script: {instanceID: 39624}
     - Class: 114
-      Script: {instanceID: 38776}
+      Script: {instanceID: 39714}
     - Class: 114
-      Script: {instanceID: 39186}
+      Script: {instanceID: 40124}
     - Class: 114
-      Script: {instanceID: 39238}
+      Script: {instanceID: 40232}
     - Class: 114
-      Script: {instanceID: 39508}
+      Script: {instanceID: 40234}
     - Class: 114
-      Script: {instanceID: 39582}
+      Script: {instanceID: 40336}
     - Class: 114
-      Script: {instanceID: 39672}
+      Script: {instanceID: 40468}
     - Class: 114
-      Script: {instanceID: 40080}
+      Script: {instanceID: 40550}
     - Class: 114
-      Script: {instanceID: 40188}
+      Script: {instanceID: 40578}
     - Class: 114
-      Script: {instanceID: 40190}
+      Script: {instanceID: 40724}
     - Class: 114
-      Script: {instanceID: 40292}
+      Script: {instanceID: 40960}
     - Class: 114
-      Script: {instanceID: 40424}
+      Script: {instanceID: 41042}
     - Class: 114
-      Script: {instanceID: 40506}
+      Script: {instanceID: 41266}
     - Class: 114
-      Script: {instanceID: 40534}
+      Script: {instanceID: 41430}
     - Class: 114
-      Script: {instanceID: 40680}
-    - Class: 114
-      Script: {instanceID: 40916}
-    - Class: 114
-      Script: {instanceID: 40998}
-    - Class: 114
-      Script: {instanceID: 41222}
-    - Class: 114
-      Script: {instanceID: 41386}
-    - Class: 114
-      Script: {instanceID: 41936}
+      Script: {instanceID: 41980}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -976,6 +936,12 @@ ScriptsOnlyBuild:
     className: WhiteBalance
   - hash:
       serializedVersion: 2
+      Hash: 21d396433bc155436b5004301182fbfa
+    assemblyName: Unity.2D.PixelPerfect
+    namespaceName: UnityEngine.U2D
+    className: CinemachinePixelPerfect
+  - hash:
+      serializedVersion: 2
       Hash: e88d71ef93aba4e7faf243430f6a10ce
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -1118,6 +1084,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.InputSystem
     namespaceName: UnityEngine.InputSystem.UI
     className: MultiplayerEventSystem
+  - hash:
+      serializedVersion: 2
+      Hash: 22130d378b859a59f2cb973162c02f89
+    assemblyName: Unity.2D.PixelPerfect
+    namespaceName: UnityEngine.U2D
+    className: PixelPerfectCamera
   - hash:
       serializedVersion: 2
       Hash: 1638ac778825c07a2aca3e07b854a6a5
@@ -2086,5 +2058,5 @@ ScriptsOnlyBuild:
     className: InternalLogUnityManager
   platform: 19
   scenePathNames:
-  - Assets/Scenes/Launcher.unity
+  - Assets/Scenes/HomePage.unity
   playerPath: C:/Users/HyeonminJeon/Desktop/TestBuild/My project.exe

@@ -8,6 +8,14 @@
     "C:\\Users\\HyeonminJeon\\Documents\\GitHub\\BlockFlow-Engine\\Packages\\packages-lock.json"
   ],
   "outputs": {
+    "com.unity.2d.pixel-perfect@5.0.3": {
+      "name": "com.unity.2d.pixel-perfect",
+      "resolvedPath": "C:\\Users\\HyeonminJeon\\Documents\\GitHub\\BlockFlow-Engine\\Library\\PackageCache\\com.unity.2d.pixel-perfect",
+      "fingerprint": "e3ae982b672dc7cca42a6303bdf53b84c69991da",
+      "editorCompatibility": "2021.1.0a1",
+      "version": "5.0.3",
+      "source": "registry"
+    },
     "com.unity.ai.navigation@2.0.4": {
       "name": "com.unity.ai.navigation",
       "resolvedPath": "C:\\Users\\HyeonminJeon\\Documents\\GitHub\\BlockFlow-Engine\\Library\\PackageCache\\com.unity.ai.navigation",

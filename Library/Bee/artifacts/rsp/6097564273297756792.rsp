@@ -5,6 +5,7 @@
 -a="C:\Users\HyeonminJeon\Documents\GitHub\BlockFlow-Engine\Assets\TheBackend\Plugins\Settings\TheBackendSettings.dll"
 -a="C:\Users\HyeonminJeon\Documents\GitHub\BlockFlow-Engine\Assets\TheBackend\Plugins\WebSocket4Net.dll"
 -a="C:\Users\HyeonminJeon\Documents\GitHub\BlockFlow-Engine\Library\ScriptAssemblies\Assembly-CSharp.dll"
+-a="C:\Users\HyeonminJeon\Documents\GitHub\BlockFlow-Engine\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll"
 -a="C:\Users\HyeonminJeon\Documents\GitHub\BlockFlow-Engine\Library\ScriptAssemblies\Unity.AI.Navigation.dll"
 -a="C:\Users\HyeonminJeon\Documents\GitHub\BlockFlow-Engine\Library\ScriptAssemblies\Unity.Burst.dll"
 -a="C:\Users\HyeonminJeon\Documents\GitHub\BlockFlow-Engine\Library\ScriptAssemblies\Unity.Collections.dll"
