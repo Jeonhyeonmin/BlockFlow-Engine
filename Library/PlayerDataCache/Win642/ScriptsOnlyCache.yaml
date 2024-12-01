@@ -121,11 +121,15 @@ ScriptsOnlyBuild:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.ContentSizeFitter
     - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.GridLayoutGroup
     - UnityEngine.UI.HorizontalLayoutGroup
     - UnityEngine.UI.Image
     - UnityEngine.UI.Mask
     - UnityEngine.UI.ScrollRect
+    - UnityEngine.UI.Scrollbar
+    - UnityEngine.UI.VerticalLayoutGroup
   serializedClasses:
     Unity.InputSystem:
     - UnityEngine.InputSystem.InputAction
@@ -198,8 +202,11 @@ ScriptsOnlyBuild:
     Unity.TextMeshPro:
     - TMPro.FaceInfo_Legacy
     - TMPro.FontAssetCreationSettings
+    - TMPro.GlyphAnchorPoint
     - TMPro.KerningTable
     - TMPro.LigatureSubstitutionRecord
+    - TMPro.MarkPositionAdjustment
+    - TMPro.MarkToBaseAdjustmentRecord
     - TMPro.TMP_Character
     - TMPro.TMP_FontFeatureTable
     - TMPro.TMP_FontWeightPair
@@ -347,6 +354,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 32930}
     - Class: 114
       Script: {instanceID: 33762}
+    - Class: 114
+      Script: {instanceID: 33946}
     - Class: 114
       Script: {instanceID: 34054}
     - Class: 114
@@ -2056,6 +2065,12 @@ ScriptsOnlyBuild:
     assemblyName: Backend.dll
     namespaceName: BackEnd.Utils
     className: InternalLogUnityManager
+  - hash:
+      serializedVersion: 2
+      Hash: 8ef42fbcc62897192869c62820961b5c
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Scrollbar_Scale
   platform: 19
   scenePathNames:
   - Assets/Scenes/HomePage.unity
