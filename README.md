@@ -1,8 +1,8 @@
 # 🎮 BlockFlow Engine
 
 > [!NOTE]  
-> This project is currently under development.  
-> 이 프로젝트는 현재 개발 진행 중입니다.
+> This project is currently on a development hiatus.
+> 이 프로젝트는 현재 개발 임시 중단 입니다.
 > 
 > ```
 > Development Progress | 개발 진행률
