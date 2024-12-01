@@ -1,8 +1,8 @@
 # 🎮 BlockFlow Engine
 
 > [!NOTE]  
-> This project is currently under development.  
-> 이 프로젝트는 현재 개발 진행 중입니다.
+> This project is currently on a development hiatus.<br>
+> 이 프로젝트는 현재 개발 임시 중단 입니다.
 > 
 > ```
 > Development Progress | 개발 진행률
@@ -18,7 +18,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ![Unity](https://img.shields.io/badge/Unity-(6000.0.28f1)_LTS-red.svg)
 ![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS-lightgrey.svg)
-![Development Status](https://img.shields.io/badge/Project_Status-In_Development-success.svg)
+![Development Status](https://img.shields.io/badge/Project_Status-Breaks_Completely-red.svg)
 
 <div align="center">
   
