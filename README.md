@@ -18,7 +18,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ![Unity](https://img.shields.io/badge/Unity-(6000.0.28f1)_LTS-red.svg)
 ![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS-lightgrey.svg)
-![Development Status](https://img.shields.io/badge/Project_Status-Development-breaks.svg)
+![Development Status](https://img.shields.io/badge/Project_Status-Breaks_Completely-red.svg)
 
 <div align="center">
   
