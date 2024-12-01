@@ -1,7 +1,7 @@
 # 🎮 BlockFlow Engine
 
 > [!NOTE]  
-> This project is currently on a development hiatus.
+> This project is currently on a development hiatus.<br>
 > 이 프로젝트는 현재 개발 임시 중단 입니다.
 > 
 > ```
