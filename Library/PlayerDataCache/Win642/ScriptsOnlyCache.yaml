@@ -1,5 +1,10 @@
 ScriptsOnlyBuild:
   usedScripts:
+    Assembly-CSharp.dll:
+    - BackEnd.System.Account.AccountJoinButton
+    - BackEnd.System.Manager.BackendManager
+    - Manager.UserSignupValidationManager
+    - Windows.Setting.ResolutionController
     TheBackendSettings.dll:
     - TheBackendSettings
     Unity.InputSystem.dll:
@@ -74,10 +79,8 @@ ScriptsOnlyBuild:
     - UnityEngine.Rendering.Universal.WhiteBalance
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.RiderScriptEditorData
+    - Packages.Rider.Editor.RiderScriptEditorPersistedState
     - Packages.Rider.Editor.UnitTesting.CallbackData
-    Unity.ShaderGraph.Editor.dll:
-    - UnityEditor.ShaderGraph.ShaderGraphProjectSettings
-    - UnityEditor.ShaderGraph.SubGraphAsset
     Unity.TextMeshPro:
     - TMPro.TMP_FontAsset
     - TMPro.TMP_Settings
@@ -85,9 +88,13 @@ ScriptsOnlyBuild:
     - TMPro.TMP_StyleSheet
     Unity.TextMeshPro.dll:
     - TMPro.TMP_FontAsset
+    - TMPro.TMP_InputField
     - TMPro.TMP_Settings
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
+    - TMPro.TextMeshProUGUI
+    Unity.VectorGraphics.dll:
+    - Unity.VectorGraphics.SVGImage
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
@@ -116,8 +123,13 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.VerticalLayoutGroup
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.Image
+    - UnityEngine.UI.LayoutElement
+    - UnityEngine.UI.RectMask2D
+    - UnityEngine.UI.Toggle
   serializedClasses:
     Unity.InputSystem:
     - UnityEngine.InputSystem.InputAction
@@ -191,13 +203,20 @@ ScriptsOnlyBuild:
     - TMPro.FaceInfo_Legacy
     - TMPro.FontAssetCreationSettings
     - TMPro.KerningTable
+    - TMPro.LigatureSubstitutionRecord
     - TMPro.TMP_Character
     - TMPro.TMP_FontFeatureTable
     - TMPro.TMP_FontWeightPair
+    - TMPro.TMP_InputField/OnChangeEvent
+    - TMPro.TMP_InputField/SelectionEvent
+    - TMPro.TMP_InputField/SubmitEvent
+    - TMPro.TMP_InputField/TextSelectionEvent
+    - TMPro.TMP_InputField/TouchScreenKeyboardEvent
     - TMPro.TMP_Sprite
     - TMPro.TMP_SpriteCharacter
     - TMPro.TMP_SpriteGlyph
     - TMPro.TMP_Style
+    - TMPro.VertexGradient
     UnityEngine.CoreModule:
     - UnityEngine.Bounds
     - UnityEngine.Events.ArgumentCache
@@ -227,28 +246,31 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.SpriteState
     - UnityEngine.UI.Toggle/ToggleEvent
   methodsToPreserve:
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Unity.TextMeshPro
+    fullTypeName: TMPro.TMP_InputField
+    methodName: set_text
   - assembly: Unity.RenderPipelines.Core.Runtime
     fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerButton
     methodName: OnAction
   - assembly: Unity.RenderPipelines.Core.Runtime
-    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerUIntField
-    methodName: OnDecrement
-  - assembly: Unity.RenderPipelines.Core.Runtime
-    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerUIntField
-    methodName: OnIncrement
-  - assembly: Unity.RenderPipelines.Core.Runtime
-    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerUIntField
-    methodName: OnIncrement
-  - assembly: Unity.RenderPipelines.Core.Runtime
-    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerUIntField
-    methodName: OnDecrement
-  - assembly: Unity.RenderPipelines.Core.Runtime
-    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerObjectPopupField
-    methodName: OnDecrement
-  - assembly: Unity.RenderPipelines.Core.Runtime
-    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerObjectPopupField
-    methodName: OnIncrement
-  - assembly: Unity.RenderPipelines.Core.Runtime
     fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerPanel
     methodName: OnScrollbarClicked
   - assembly: Unity.RenderPipelines.Core.Runtime
@@ -265,12 +287,30 @@ ScriptsOnlyBuild:
     methodName: OnDecrement
   - assembly: Unity.RenderPipelines.Core.Runtime
     fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerIntField
+    methodName: OnIncrement
+  - assembly: Unity.RenderPipelines.Core.Runtime
+    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerUIntField
+    methodName: OnDecrement
+  - assembly: Unity.RenderPipelines.Core.Runtime
+    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerUIntField
+    methodName: OnIncrement
+  - assembly: Unity.RenderPipelines.Core.Runtime
+    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerUIntField
+    methodName: OnIncrement
+  - assembly: Unity.RenderPipelines.Core.Runtime
+    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerUIntField
+    methodName: OnDecrement
+  - assembly: Unity.RenderPipelines.Core.Runtime
+    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerObjectPopupField
+    methodName: OnDecrement
+  - assembly: Unity.RenderPipelines.Core.Runtime
+    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerObjectPopupField
     methodName: OnIncrement
   - assembly: Unity.RenderPipelines.Core.Runtime
     fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerPanel
     methodName: ResetDebugManager
   sceneClasses:
-    Assets/Scenes/HomePage.unity:
+    Assets/Scenes/Launcher.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -292,117 +332,133 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 30134}
+      Script: {instanceID: 30226}
     - Class: 114
-      Script: {instanceID: 30376}
+      Script: {instanceID: 30390}
     - Class: 114
-      Script: {instanceID: 30420}
+      Script: {instanceID: 30632}
     - Class: 114
-      Script: {instanceID: 30598}
+      Script: {instanceID: 30676}
     - Class: 114
-      Script: {instanceID: 30748}
+      Script: {instanceID: 30854}
     - Class: 114
-      Script: {instanceID: 30862}
+      Script: {instanceID: 30958}
     - Class: 114
-      Script: {instanceID: 31050}
+      Script: {instanceID: 31006}
     - Class: 114
-      Script: {instanceID: 31188}
+      Script: {instanceID: 31120}
     - Class: 114
-      Script: {instanceID: 31440}
+      Script: {instanceID: 31242}
     - Class: 114
-      Script: {instanceID: 31640}
+      Script: {instanceID: 31308}
     - Class: 114
-      Script: {instanceID: 31980}
+      Script: {instanceID: 31446}
     - Class: 114
-      Script: {instanceID: 32036}
+      Script: {instanceID: 31698}
     - Class: 114
-      Script: {instanceID: 32186}
+      Script: {instanceID: 31726}
     - Class: 114
-      Script: {instanceID: 32408}
+      Script: {instanceID: 31898}
     - Class: 114
-      Script: {instanceID: 32494}
+      Script: {instanceID: 32238}
     - Class: 114
-      Script: {instanceID: 32530}
+      Script: {instanceID: 32294}
     - Class: 114
-      Script: {instanceID: 32582}
+      Script: {instanceID: 32444}
     - Class: 114
-      Script: {instanceID: 32614}
+      Script: {instanceID: 32666}
     - Class: 114
-      Script: {instanceID: 32646}
+      Script: {instanceID: 32752}
     - Class: 114
-      Script: {instanceID: 33472}
+      Script: {instanceID: 32788}
     - Class: 114
-      Script: {instanceID: 33764}
+      Script: {instanceID: 32840}
     - Class: 114
-      Script: {instanceID: 33776}
+      Script: {instanceID: 32872}
     - Class: 114
-      Script: {instanceID: 34464}
+      Script: {instanceID: 32904}
     - Class: 114
-      Script: {instanceID: 34502}
+      Script: {instanceID: 33730}
     - Class: 114
-      Script: {instanceID: 34764}
+      Script: {instanceID: 34022}
     - Class: 114
-      Script: {instanceID: 34852}
+      Script: {instanceID: 34034}
     - Class: 114
-      Script: {instanceID: 34914}
+      Script: {instanceID: 34206}
     - Class: 114
-      Script: {instanceID: 34990}
+      Script: {instanceID: 34266}
     - Class: 114
-      Script: {instanceID: 35068}
+      Script: {instanceID: 34722}
     - Class: 114
-      Script: {instanceID: 35174}
+      Script: {instanceID: 34760}
     - Class: 114
-      Script: {instanceID: 35764}
+      Script: {instanceID: 35022}
     - Class: 114
-      Script: {instanceID: 35942}
+      Script: {instanceID: 35110}
     - Class: 114
-      Script: {instanceID: 36040}
+      Script: {instanceID: 35154}
     - Class: 114
-      Script: {instanceID: 36042}
+      Script: {instanceID: 35172}
     - Class: 114
-      Script: {instanceID: 36286}
+      Script: {instanceID: 35248}
     - Class: 114
-      Script: {instanceID: 37008}
+      Script: {instanceID: 35326}
     - Class: 114
-      Script: {instanceID: 37568}
+      Script: {instanceID: 35432}
     - Class: 114
-      Script: {instanceID: 38518}
+      Script: {instanceID: 36022}
     - Class: 114
-      Script: {instanceID: 38928}
+      Script: {instanceID: 36200}
     - Class: 114
-      Script: {instanceID: 38980}
+      Script: {instanceID: 36298}
     - Class: 114
-      Script: {instanceID: 39250}
+      Script: {instanceID: 36300}
     - Class: 114
-      Script: {instanceID: 39324}
+      Script: {instanceID: 36544}
     - Class: 114
-      Script: {instanceID: 39414}
+      Script: {instanceID: 37266}
     - Class: 114
-      Script: {instanceID: 39822}
+      Script: {instanceID: 37298}
     - Class: 114
-      Script: {instanceID: 39930}
+      Script: {instanceID: 37826}
     - Class: 114
-      Script: {instanceID: 39932}
+      Script: {instanceID: 38776}
     - Class: 114
-      Script: {instanceID: 40034}
+      Script: {instanceID: 39186}
     - Class: 114
-      Script: {instanceID: 40166}
+      Script: {instanceID: 39238}
     - Class: 114
-      Script: {instanceID: 40248}
+      Script: {instanceID: 39508}
     - Class: 114
-      Script: {instanceID: 40276}
+      Script: {instanceID: 39582}
     - Class: 114
-      Script: {instanceID: 40422}
+      Script: {instanceID: 39672}
     - Class: 114
-      Script: {instanceID: 40658}
+      Script: {instanceID: 40080}
     - Class: 114
-      Script: {instanceID: 40740}
+      Script: {instanceID: 40188}
     - Class: 114
-      Script: {instanceID: 40964}
+      Script: {instanceID: 40190}
     - Class: 114
-      Script: {instanceID: 41128}
+      Script: {instanceID: 40292}
     - Class: 114
-      Script: {instanceID: 41678}
+      Script: {instanceID: 40424}
+    - Class: 114
+      Script: {instanceID: 40506}
+    - Class: 114
+      Script: {instanceID: 40534}
+    - Class: 114
+      Script: {instanceID: 40680}
+    - Class: 114
+      Script: {instanceID: 40916}
+    - Class: 114
+      Script: {instanceID: 40998}
+    - Class: 114
+      Script: {instanceID: 41222}
+    - Class: 114
+      Script: {instanceID: 41386}
+    - Class: 114
+      Script: {instanceID: 41936}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -552,6 +608,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline
     namespaceName: UnityEngine.Timeline
     className: GroupTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 7e53d72ea75506fb531b110c5d9a3011
+    assemblyName: Assembly-CSharp
+    namespaceName: Windows.Setting
+    className: ResolutionController
   - hash:
       serializedVersion: 2
       Hash: f669be52680c88846b2093fd41d1e06e
@@ -2024,6 +2086,5 @@ ScriptsOnlyBuild:
     className: InternalLogUnityManager
   platform: 19
   scenePathNames:
-  - Assets/Scenes/HomePage.unity
-  playerPath: "C:/Users/JeonHyeonMin/OneDrive - \uC778\uCC9C\uAD11\uC5ED\uC2DC\uAD50\uC721\uCCAD/\uBC14\uD0D5
-    \uD654\uBA74/53535/My project.exe"
+  - Assets/Scenes/Launcher.unity
+  playerPath: C:/Users/HyeonminJeon/Desktop/TestBuild/My project.exe
