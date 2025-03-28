@@ -1,17 +1,7 @@
 # 🎮 BlockFlow Engine
 
 > [!NOTE]  
-> This project is currently on a development hiatus.<br>
-> 이 프로젝트는 현재 개발 임시 중단 입니다.
 > 
-> ```
-> Development Progress | 개발 진행률
-> 
-> 🔨 Core Engine     [▱▱▱▱▱▱▱▱▱▱] 0%
-> 🎨 Block Editor    [▰▱▱▱▱▱▱▱▱▱] 10%
-> 🌐 Multiplayer     [▱▱▱▱▱▱▱▱▱▱] 0%
-> 📚 Documentation   [▰▰▱▱▱▱▱▱▱▱] 20%
-> ```
 
 [한국어 버전은 아래에 있습니다 / Korean version below](#korean)
 
