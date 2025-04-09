@@ -79,29 +79,7 @@ BlockFlow Engine is an innovative visual programming platform built on Unity, de
   - Particle System Editor
   - UI Object Library
   - Debugging Tools
-
-## 🚀 Getting Started
-
-### Prerequisites
-
-- Unity 6 (6000.0.28F1) LTS
-- BackEnd SDK
-- Photon PUN2
-
-### Quick Start Guide
-
-1. Clone the repository:
-```bash
-git clone https://github.com/Jeonhyeonmin/BlockFlow-Engine.git
-```
-
-2. Open in Unity Hub and configure:
-```mermaid
-graph LR
-    A[Clone Repo] --> B[Open Unity]
-    B --> C[Project Settings]
-    C --> D[Configure Keys]
-    D --> E[Ready!]
+  - 
 ```
 
 ## 📖 Documentation
@@ -196,28 +174,6 @@ BlockFlow Engine은 유니티 기반의 혁신적인 비주얼 프로그래밍 �
   - UI 오브젝트 라이브러리
   - 디버깅 도구
 
-## 🚀 시작하기
-
-### 필수 요구사항
-
-- Unity 6 (6000.0.28F1) LTS
-- BackEnd SDK
-- Photon PUN2
-
-### 빠른 시작 가이드
-
-1. 저장소 클론:
-```bash
-git clone https://github.com/Jeonhyeonmin/BlockFlow-Engine.git
-```
-
-2. Unity Hub에서 열고 설정:
-```mermaid
-graph LR
-    A[저장소 복제] --> B[유니티 실행]
-    B --> C[프로젝트 설정]
-    C --> D[키 설정]
-    D --> E[준비 완료!]
 ```
 
 ## 📖 문서
