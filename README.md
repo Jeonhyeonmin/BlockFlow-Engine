@@ -79,8 +79,6 @@ BlockFlow Engine is an innovative visual programming platform built on Unity, de
   - Particle System Editor
   - UI Object Library
   - Debugging Tools
-  - 
-```
 
 ## 📖 Documentation
 
@@ -173,8 +171,6 @@ BlockFlow Engine은 유니티 기반의 혁신적인 비주얼 프로그래밍 �
   - 파티클 시스템 에디터
   - UI 오브젝트 라이브러리
   - 디버깅 도구
-
-```
 
 ## 📖 문서
 
