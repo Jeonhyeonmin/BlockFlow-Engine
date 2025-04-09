@@ -104,35 +104,6 @@ graph LR
     D --> E[Ready!]
 ```
 
-## 🔧 Development Setup
-
-### Backend Configuration
-```json
-{
-  "backend": {
-    "projectName": "BlockFlow",
-    "serverRegion": "Asia",
-    "authentication": {
-      "method": "JWT",
-      "timeout": 3600
-    }
-  }
-}
-```
-
-### Photon Setup
-```json
-{
-  "photon": {
-    "networkProtocol": "UDP",
-    "serverSettings": {
-      "maxPlayers": 50,
-      "timeout": 5000
-    }
-  }
-}
-```
-
 ## 📖 Documentation
 
 Comprehensive documentation available in our [Wiki](https://github.com/Jeonhyeonmin/BlockFlow-Engine/wiki).
@@ -247,35 +218,6 @@ graph LR
     B --> C[프로젝트 설정]
     C --> D[키 설정]
     D --> E[준비 완료!]
-```
-
-## 🔧 개발 환경 설정
-
-### 백엔드 설정
-```json
-{
-  "backend": {
-    "projectName": "BlockFlow",
-    "serverRegion": "Asia",
-    "authentication": {
-      "method": "JWT",
-      "timeout": 3600
-    }
-  }
-}
-```
-
-### Photon 설정
-```json
-{
-  "photon": {
-    "networkProtocol": "UDP",
-    "serverSettings": {
-      "maxPlayers": 50,
-      "timeout": 5000
-    }
-  }
-}
 ```
 
 ## 📖 문서
